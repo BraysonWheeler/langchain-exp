@@ -1,0 +1,472 @@
+,x,y,query
+0,0.24316962789765856,-0.23605055314473067,Security best practices for Amazon S3 - Amazon Simple Storage ServiceSecurity best practices for Amazon S3 - Amazon Simple Storage ServiceDocumentationAmazon Simple Storage Service (S3)User
+1,0.3879171034913056,-0.05689566951720645,GuideAmazon S3 security best
+2,0.3969845421054436,-0.11878190775108076,practicesAmazon S3 monitoring and auditing best
+3,0.4395218142417669,-0.11449472981237689,practicesMonitoring data securitySecurity best practices for Amazon S3Amazon S3 provides a number of security features to consider as you develop and implement your
+4,0.20552181586456167,0.2592909524462437,"own security policies. The following best practices are general guidelines and don't
+        represent a complete security solution. Because these best practices might not be"
+5,0.20631684855061883,0.1564217801184987,"appropriate or sufficient for your environment, treat them as helpful recommendations rather
+        than prescriptions. TopicsAmazon S3 security best"
+6,-0.06703888964776551,0.13164260971088568,"practicesAmazon S3 monitoring and auditing best
+                practicesMonitoring data security with managed AWS security services
+Amazon S3 security best
+                practices"
+7,-0.30669205190053234,0.025153787399908683,The following best practices for Amazon S3 can help prevent security incidents.
+8,0.04472777869701147,-0.06938111702744303,Disable access control lists (ACLs)
+9,0.11290037961037477,-0.1769705164284905,"S3 Object Ownership is an Amazon S3 bucket-level setting that you can use to control ownership of objects uploaded to your bucket and to disable or enable ACLs. By default, Object Ownership is set to"
+10,0.25470680094840026,0.21169851380710966,"the Bucket owner enforced setting and all ACLs are disabled. When ACLs are disabled, the bucket owner owns all the objects"
+11,-0.26926890488487987,-0.08773158527649838,in the bucket and manages access to data exclusively using access management policies.
+12,0.2561150620582998,-0.060289369079453085,A majority of modern use cases in Amazon S3 no longer require the use of access control lists (ACLs). We recommend
+13,0.021740619523523897,0.340867799685862,"that you disable ACLs, except in unusual circumstances where you must
+                        control access for each object individually. To disable ACLs and take"
+14,0.18743999710031056,0.241646651108918,"ownership of every object in your bucket, apply the bucket owner enforced
+                        setting for S3 Object Ownership. When you disable ACLs, you can easily"
+15,0.2243402450219112,-0.07582575144634979,"maintain a bucket with objects uploaded by different AWS accounts. 
+When ACLs are disabled access control for your data is based on policies,"
+16,0.16838653184113986,-0.7494062233975275,such as the following:
+17,-0.1293733884182729,0.051888000836782494,"AWS Identity and Access Management (IAM) user policies
+
+S3 bucket policies
+
+Virtual private cloud (VPC) endpoint policies
+
+AWS Organizations service control policies (SCPs)"
+18,0.1542180007252201,-0.14754015218465125,AWS Organizations resource control policies (RCPs)
+19,0.11253388884360341,0.3587237824224076,"Disabling ACLs simplifies permissions management and auditing. ACLs are
+                        disabled for new buckets by default. You can also disable ACLs for existing"
+20,0.31811841720911244,-0.14653992496891613,"buckets. If you have an existing bucket that already has objects in it,
+                        after you disable ACLs, the object and bucket ACLs are no longer part of the"
+21,-0.4428136141831329,0.08345729273218543,"access-evaluation process. Instead, access is granted or denied on the basis
+                        of policies."
+22,-0.15949567469250706,-0.08482706500209522,"Before you disable ACLs, make sure that you do the following:"
+23,0.29627339191867924,-0.02964042865138766,"Review your bucket policy to ensure that it covers all the ways
+                                that you intend to grant access to your bucket outside of your"
+24,-0.1750232850601622,-0.7140877200655502,account.
+25,-0.2839059979803972,0.06933201989009485,"Reset your bucket ACL to the default (full control to the bucket
+                                owner).
+
+
+After you disable ACLs, the following behaviors occur:"
+26,0.21756988362274374,0.1083772235654279,"Your bucket accepts only PUT requests that do not
+                                specify an ACL or PUT requests with bucket owner full"
+27,0.20166652691588224,0.18041071115152826,"control ACLs. These ACLs include the
+                                    bucket-owner-full-control canned ACL or equivalent"
+28,-0.345691136907685,-0.16190791029275042,forms of this ACL that are expressed in XML.
+29,-0.42954458634721704,-0.01784439236597737,"Existing applications that support bucket owner full control ACLs
+                                see no impact."
+30,0.12302599041384549,0.15717005143456314,"PUT requests that contain other ACLs (for example,
+                                custom grants to certain AWS accounts) fail and return an HTTP"
+31,-0.5093311548504612,-0.06954843865186702,"status code 400 (Bad Request) with the error code
+                                    AccessControlListNotSupported."
+32,-0.5246141688094096,-0.0518116939372143,"For more information, see Controlling ownership of objects and disabling ACLs
+			for your bucket."
+33,-0.09879499625728229,0.4122432339118007,"Ensure that
+                    your Amazon S3 buckets use the correct policies and are not publicly
+                    accessible"
+34,0.2523116158064947,-0.1291296714558281,"Unless you explicitly require anyone on the internet to be able to read or
+                        write to your S3 bucket, make sure that your S3 bucket is not public. The"
+35,-0.3273175914721264,0.2113547250075486,"following are some of the steps that you can take to block public
+                        access:"
+36,0.20757839197728817,0.21106780500085937,"Use S3 Block Public Access. With S3 Block Public Access, you can
+                                easily set up centralized controls to limit public access to your"
+37,0.2216299774109788,0.0831304326625768,Amazon S3 resources. These centralized controls are enforced regardless
+38,-0.5205605918914309,-0.10346524618502792,"of how the resources are created. For more information, see Blocking public access to your Amazon S3
+			storage."
+39,-0.40643950046213967,0.15866811438424114,"Identify Amazon S3 bucket policies that allow a wildcard identity such
+                                as ""Principal"": ""*"" (which effectively means ""anyone"")."
+40,0.21953435801033036,-0.07537689288143945,"Also look for policies that allow a wildcard action ""*""
+                                (which effectively allows the user to perform any action in the Amazon S3"
+41,0.034348499553464036,-0.7952719009828499,bucket).
+42,0.18789731669820695,-0.006650599830885961,"Similarly, look for Amazon S3 bucket access control lists (ACLs) that
+                                provide read, write, or full-access to ""Everyone"" or ""Any"
+43,-0.27220157266368233,-0.09363407251457584,"authenticated AWS user."""
+44,0.0044834940995035506,-0.08803126790826687,"Use the ListBuckets API operation to scan all of your
+                                Amazon S3 buckets. Then use GetBucketAcl,"
+45,0.34881112273164777,-0.17015694088400699,"GetBucketWebsite, and GetBucketPolicy
+                                to determine whether each bucket has compliant access controls and a"
+46,-0.20310299819210453,-0.6417888819835202,compliant configuration.
+47,-0.4810842603248541,0.06957953116111928,"Use AWS Trusted Advisor to inspect your Amazon S3
+                                implementation."
+48,0.18973657813738953,-0.0392267280786889,"Consider implementing ongoing detective controls by using the
+                                    s3-bucket-public-read-prohibited and"
+49,-0.48628698560206435,-0.03747507740787562,"s3-bucket-public-write-prohibited
+                                managed AWS Config Rules."
+50,0.03457891315502001,0.3420243808076981,"For more information, see Identity and Access Management for Amazon S3. 
+
+Implement
+                    least privilege access"
+51,0.2420279231471494,0.262685558293322,"When granting permissions, you decide who is getting what permissions to
+                        which Amazon S3 resources. You enable specific actions that you want to allow on"
+52,0.27324804446788703,0.12420902896422552,"those resources. Therefore, we recommend that you grant only the permissions"
+53,0.16839656208458337,0.30152561130108013,"that are required to perform a task. Implementing least privilege access is
+                        fundamental in reducing security risk and the impact that could result from"
+54,-0.21483596276514835,0.12021806810314754,"errors or malicious intent. 
+The following tools are available to implement least privilege
+                        access:"
+55,-0.1811459496394156,0.30589674782281534,"Policy actions
+               for Amazon S3 and Permissions Boundaries for IAM Entities
+
+How Amazon S3 works with IAM
+
+Access control list (ACL) overview"
+56,-0.5432730381718478,0.0008795659490699669,"For guidance on what to consider when choosing one or more of the
+                        preceding mechanisms, see Identity and Access Management for Amazon S3."
+57,-0.1158812592693394,0.39948807447657675,"Use IAM roles for
+                    applications and AWS services that require Amazon S3 access"
+58,0.2453381792433042,0.037834183229071144,"In order for applications running on Amazon EC2 or other AWS services to
+                        access Amazon S3 resources, they must include valid AWS credentials in their"
+59,0.3399961370136276,0.06489807954594402,"AWS API requests. We recommend not storing AWS credentials directly in
+                        the application or Amazon EC2 instance. These are long-term credentials that are"
+60,-0.4971353065638923,0.050732421397683,"not automatically rotated and could have a significant business impact if
+                        they are compromised."
+61,0.1364444087330367,0.2092290876682222,"Instead, use an IAM role to manage temporary credentials for
+                        applications or services that need to access Amazon S3. When you use a role, you"
+62,0.12600952804305554,0.01576805109367699,"don't have to distribute long-term credentials (such as a username and
+                        password or access keys) to an Amazon EC2 instance or AWS service, such as"
+63,-0.3868221390216955,-0.1581986167247817,"AWS Lambda. The role supplies temporary permissions that applications can use
+                        when they make calls to other AWS resources."
+64,-0.3163260278660914,0.05405189840317223,"For more information, see the following topics in the
+                            IAM User Guide:"
+65,-0.23039067280585848,0.2672964604690546,"IAM
+                                Roles
+
+Common
+                                    Scenarios for Roles: Users, Applications, and
+                                Services"
+66,-0.10177765486341685,0.04013667924559893,"Consider encryption of data at rest
+
+You have the following options for protecting data at rest in Amazon S3:"
+67,0.332841937898702,-0.008099445497732881,"Server-side encryption –
+                                All Amazon S3 buckets have encryption configured by default, and all new"
+68,-0.0468571233531268,0.33471653911904503,"objects that are uploaded to an S3 bucket are automatically
+                                encrypted at rest. Server-side encryption with Amazon S3 managed keys"
+69,0.2984784063820422,-0.17885059054557795,(SSE-S3) is the default encryption configuration for every bucket in
+70,0.27104711082476635,-0.05137114836469462,"Amazon S3. To use a different type of encryption, you can either specify
+                                the type of server-side encryption to use in your S3"
+71,-0.5617341927273484,0.010317970966674443,"PUT requests, or you can set the default encryption
+                                configuration in the destination bucket."
+72,-0.006575124521313294,-0.1770332073338285,Amazon S3 also provides these server-side encryption options:
+73,-0.1998114354393055,0.055013871463877664,"Server-side encryption with AWS Key Management Service (AWS KMS) keys
+                                        (SSE-KMS)"
+74,-0.22046776329255224,0.030498809049993927,"Dual-layer server-side encryption with AWS Key Management Service (AWS KMS) keys
+                                        (DSSE-KMS)"
+75,-0.5137833101873447,0.06629104725799206,"Server-side encryption with customer-provided keys
+                                        (SSE-C)
+
+For more information, see Protecting data with server-side encryption."
+76,0.1618945709007946,0.02819724328616914,"Client-side encryption –
+                                Encrypt data client-side and upload the encrypted data to Amazon S3. In"
+77,0.049735612152214684,0.37248370040808204,"this case, you manage the encryption process, the encryption keys,
+                                and related tools. As with server-side encryption, client-side"
+78,0.17046540783092487,0.2450098286593856,"encryption can help reduce risk by encrypting the data with a key
+                                that is stored in a different mechanism than the mechanism that"
+79,0.15528980928611327,0.23101843727755839,"stores the data itself. 
+Amazon S3 provides multiple client-side encryption options. For more"
+80,-0.5427214159446364,-0.0457005958629235,"information, see Protecting data by using client-side
+			encryption."
+81,0.1269330988897886,0.1453982821015675,Enforce encryption of data in transit
+82,0.36884125457699185,-0.20180997268528236,You can use HTTPS (TLS) to help prevent potential attackers from eavesdropping on or manipulating network traffic by using person-in-the-middle or similar attacks. We recommend allowing only
+83,0.3586482614095903,-0.13018942529632846,"encrypted connections over HTTPS (TLS) by using the aws:SecureTransport condition in your Amazon S3 bucket policies. For more information, see the example S3 bucket policy Managing access based on"
+84,0.3500291775580972,-0.02050565528814245,"HTTP or HTTPS requests. In addition to denying HTTP requests, we recommend that you set Amazon CloudWatch alarms on tlsDetails.tlsVersion NOT EXISTS that alert you if HTTP access attempts are made on"
+85,0.1912101213602889,-0.26011789884056485,"your content. For more information on how to configure Amazon CloudWatch alarms, see Creating CloudWatch alarms for CloudTrail events: examples and CloudTrail record contents in the AWS CloudTrail"
+86,0.04255949854243605,-0.777744118405803,User Guide.
+87,0.31844251744724844,-0.11399339974610058,ImportantWe recommend that your application not pin Amazon S3 TLS certificates as AWS doesn’t support pinning of publicly-trusted certificates. S3 automatically renews certificates and renewal can
+88,0.35522221322664826,-0.5412845306607016,happen any time before
+89,0.28665315480440773,0.10448038174032653,certificate expiry. Renewing a certificate generates a new public-private key pair. If you’ve pinned an S3 certificate
+90,-0.553652125905197,-0.025680231555381176,"which has been recently renewed with a new public key, you won’t be able to connect to S3 until 
+                       your application uses the new certificate."
+91,-0.5004740188289516,0.11210065492487152,"Also consider implementing ongoing detective controls by using the s3-bucket-ssl-requests-only managed AWS Config
+                        rule."
+92,0.0002498950019351485,0.032560584029643264,"Consider using
+                    S3 Object Lock"
+93,0.28614041500859916,0.11172486151642762,"With S3 Object Lock, you can store objects by using a ""Write Once Read
+                        Many"" (WORM) model. S3 Object Lock can help prevent accidental or"
+94,-0.524927198478833,-0.0037646850433537384,"inappropriate deletion of data. For example, you can use S3 Object Lock to
+                        help protect your AWS CloudTrail logs."
+95,-0.2172661980219789,-0.38063440055622205,"For more information, see Locking objects with Object Lock."
+96,-0.09024404753950346,0.010242071269987238,"Enable
+                    S3 Versioning"
+97,0.16494008647198263,0.17218897680451709,"S3 Versioning is a means of keeping multiple variants of an object in the
+                        same bucket. You can use versioning to preserve, retrieve, and restore every"
+98,-0.5407652378114651,0.024282374817415638,"version of every object stored in your bucket. With versioning, you can
+                        easily recover from both unintended user actions and application failures."
+99,-0.4886800406619279,0.08682979752508285,"Also consider implementing ongoing detective controls by using the s3-bucket-versioning-enabled managed AWS Config
+                        rule."
+100,-0.26899463148147607,-0.23855527192756742,"For more information, see Retaining multiple versions of objects with S3 Versioning."
+101,0.16182739098429044,0.06400556416677065,Consider using S3 Cross-Region Replication
+102,0.14443448639591683,0.35864739339092894,"Although Amazon S3 stores your data across multiple geographically diverse
+                        Availability Zones by default, compliance requirements might dictate that"
+103,0.16361778930801826,0.1947721836388275,"you store data at even greater distances. With S3 Cross-Region Replication
+                        (CRR), you can replicate data between distant AWS Regions to help satisfy"
+104,0.27128058089456014,0.21047586323791354,"these requirements. CRR enables automatic, asynchronous copying of objects"
+105,-0.3600450027242138,-0.135774311952703,"across buckets in different AWS Regions. For more information, see Replicating objects within and across Regions."
+106,-0.5616425195879325,-0.015064270052204166,"NoteCRR requires both the source and destination S3 buckets to have
+                            versioning enabled."
+107,-0.5013212552777343,0.10221338635918994,"Also consider implementing ongoing detective controls by using the s3-bucket-replication-enabled managed AWS Config
+                        rule."
+108,0.07466050060865634,0.11222686487147551,Consider using VPC endpoints for Amazon S3 access
+109,0.24465300408834037,0.09884484960520043,"A virtual private cloud (VPC) endpoint for Amazon S3 is a logical entity within
+                        a VPC that allows connectivity only to Amazon S3. VPC endpoints can help prevent"
+110,-0.16844124535159563,0.13136922738284604,"traffic from traversing the open internet.
+VPC endpoints for Amazon S3 provide multiple ways to control access to your
+                        Amazon S3 data:"
+111,-0.5391346270189965,0.11289908708005612,"You can control the requests, users, or groups that are allowed
+                                through a specific VPC endpoint by using S3 bucket policies."
+112,-0.5205586860218611,0.12821449235923163,"You can control which VPCs or VPC endpoints have access to your S3
+                                buckets by using S3 bucket policies."
+113,-0.5014605007586591,0.07508041316039075,"You can help prevent data exfiltration by using a VPC that does
+                                not have an internet gateway."
+114,0.033832955921939405,0.32489321952632744,"For more information, see Controlling access from VPC
+            endpoints with bucket policies. 
+
+
+Use managed AWS security services to monitor data security"
+115,0.12203721829952466,0.3120081028483738,"Several managed AWS security services can help you identify, assess, and
+                        monitor security and compliance risks for your Amazon S3 data. These services can"
+116,0.26422134766089295,0.18961110749356289,"also help you protect your data from those risks. These services include
+                        automated detection, monitoring, and protection capabilities that are"
+117,-0.5529642748141959,-0.015297184788806213,"designed to scale from Amazon S3 resources for a single AWS account to
+                        resources for organizations spanning thousands of accounts."
+118,-0.23293615013782898,-0.25021523992254446,"For more information, see Monitoring data security with managed AWS security services."
+119,-0.40858310043052704,0.0788223244774545,"Amazon S3 monitoring and auditing best
+                practices
+The following best practices for Amazon S3 can help detect potential security weaknesses
+            and incidents."
+120,0.17805890305473482,0.17796270946028603,Identify and audit all of your Amazon S3 buckets
+121,0.20891692436699197,0.33979764861015654,"Identification of your IT assets is a crucial aspect of governance and
+                        security. You need to have visibility of all your Amazon S3 resources to assess"
+122,-0.30413373262842425,0.2006905044192579,"their security posture and take action on potential areas of weakness. To
+                        audit your resources, we recommend doing the following:"
+123,0.16515661404658757,0.25379585202773,"Use Tag Editor to identify and tag security-sensitive or
+                                audit-sensitive resources, then use those tags when you need to"
+124,-0.3056153712042762,-0.24802766707378512,"search for these resources. For more information, see Searching for Resources to Tag in the Tagging AWS Resources User Guide."
+125,0.2826602555637137,0.09063752337218588,"Use S3 Inventory to audit and report on the replication and
+                                encryption status of your objects for business, compliance, and"
+126,-0.254757259558358,-0.19934571223134318,"regulatory needs. For more information, see Cataloging and analyzing your data with S3 Inventory."
+127,0.25622830614681646,-0.17556559400283664,"Create resource groups for your Amazon S3 resources. For more
+                                information, see What are"
+128,-0.2794660734031038,-0.26581286188350906,resource groups? in the AWS Resource Groups User Guide.
+129,0.06045167211482574,0.2377104753845632,Implement monitoring by using AWS monitoring tools
+130,0.1367644172252668,-0.05676981486132151,"Monitoring is an important part of maintaining the reliability, security,
+                        availability, and performance of Amazon S3 and your AWS solutions. AWS"
+131,0.42070534085479716,-0.22810114564585293,provides several tools and services to help you monitor Amazon S3 and your other
+132,0.05577261606845356,-0.19130891521794233,"AWS services. For example, you can monitor Amazon CloudWatch metrics for Amazon S3,
+                        particularly the PutRequests, GetRequests,"
+133,-0.5536345660363055,-0.09722284557390758,"4xxErrors, and DeleteRequests metrics. For
+                        more information, see Monitoring metrics with Amazon CloudWatch and Logging and monitoring in Amazon S3."
+134,0.10445444710750448,0.2451848531242053,"For a second example, see Example: Amazon S3 Bucket Activity. This example describes how to
+                        create a CloudWatch alarm that is triggered when an Amazon S3 API call is made to"
+135,-0.5208128903220576,-0.014680598995744205,"PUT or DELETE a bucket policy, a bucket
+                        lifecycle, or a bucket replication configuration, or to PUT a
+                        bucket ACL."
+136,-0.013195229207940827,0.2033107957427263,"Enable
+                    Amazon S3 server access logging"
+137,0.26365422353148515,0.2579471826073867,"Server access logging provides detailed records of the requests that are
+                        made to a bucket. Server access logs can assist you in security and access"
+138,0.3926941885769033,-0.21729995808315705,"audits, help you learn about your customer base, and understand your Amazon S3"
+139,-0.22248988673055128,-0.3050439840247474,"bill. For instructions on enabling server access logging, see Logging requests with server access logging."
+140,-0.5228330540132815,0.10278597887150873,"Also consider implementing ongoing detective controls by using the s3-bucket-logging-enabled AWS Config managed
+                        rule."
+141,0.19830200404047896,-0.1344785920710734,Use AWS CloudTrail
+142,0.23369087472302083,0.12221727183116995,"AWS CloudTrail provides a record of actions taken by a user, a role, or an
+                        AWS service in Amazon S3. You can use information collected by CloudTrail to"
+143,0.0997718743033884,-0.6573700786360054,determine the following:
+144,-0.05431315542023881,0.2787371547140956,"The request that was made to Amazon S3
+
+The IP address from which the request was made
+
+Who made the request
+
+When the request was made
+
+Additional details about the request"
+145,0.05958064035721683,-0.0688673711378661,"For example, you can identify CloudTrail entries for PUT actions
+                        that affect data access, in particular PutBucketAcl,"
+146,0.19888611569249812,0.034441025628314186,"PutObjectAcl, PutBucketPolicy, and
+                            PutBucketWebsite. 
+When you set up your AWS account, CloudTrail is enabled by default. You can"
+147,0.3451681909476705,-0.053449486490674186,view recent events in the CloudTrail console. To create an ongoing record of
+148,0.15242484663649783,0.1264017595258577,"activity and events for your Amazon S3 buckets, you can create a trail in the
+                        CloudTrail console. For more information, see Logging data"
+149,0.18510286359819866,0.15941978881424662,"events in the AWS CloudTrail User Guide.
+When you create a trail, you can configure CloudTrail to log data events. Data"
+150,0.27880843613462997,0.01716476876213684,"events are records of resource operations performed on or within a resource.
+                        In Amazon S3, data events record object-level API activity for individual"
+151,0.11009445840087388,-0.20141863202753185,"buckets. CloudTrail supports a subset of Amazon S3 object-level API operations, such as
+                            GetObject, DeleteObject, and"
+152,0.3072274889632605,-0.306423330999745,PutObject. For more information about how CloudTrail works with
+153,0.2772783211654855,-0.11398909141948754,"Amazon S3, see Logging Amazon S3 API calls using AWS CloudTrail. In the Amazon S3 console, you can also"
+154,0.13727022523437651,-0.11206470813897185,"configure your S3 buckets to Enabling CloudTrail event logging for
+                    S3 buckets and objects.
+AWS Config provides a managed rule"
+155,0.2799362394437613,0.11825066192084363,"(cloudtrail-s3-dataevents-enabled) that you can use to
+                        confirm that at least one CloudTrail trail is logging data events for your S3"
+156,-0.5293790739449875,-0.05737732608145946,"buckets. For more information, see cloudtrail-s3-dataevents-enabled in the
+                            AWS Config Developer Guide."
+157,0.1430785978798239,-0.2188450089376245,Enable AWS Config
+158,0.2091920282517625,0.21570506263168843,"Several of the best practices listed in this topic suggest creating AWS Config
+                        rules. AWS Config helps you to assess, audit, and evaluate the configurations of"
+159,0.27119148879777233,0.15323635014078504,"your AWS resources. AWS Config monitors resource configurations so that you can
+                        evaluate the recorded configurations against the desired secure"
+160,-0.10553273893385257,-0.060449043461667726,"configurations. With AWS Config, you can do the following:"
+161,-0.07928820970157936,0.4240922955749066,"Review changes in configurations and relationships between AWS
+                                resources
+
+Investigate detailed resource-configuration histories"
+162,0.019795674881480842,0.36055273416405625,"Determine your overall compliance against the configurations
+                                specified in your internal guidelines"
+163,-0.12952521169869327,0.30716251837593594,"Using AWS Config can help you simplify compliance auditing, security analysis,
+                        change management, and operational troubleshooting. For more information,"
+164,-0.5531649886477338,-0.05454386170309181,"see Setting Up AWS Config with the
+                            Console in the AWS Config Developer Guide."
+165,-0.5411129898151532,0.03376553783360198,"When specifying the resource types to record, ensure that you include Amazon S3
+                        resources."
+166,0.34118254560507066,-0.20704850517582085,ImportantAWS Config managed rules only supports general purpose buckets when evaluating Amazon S3 resources. AWS Config
+167,0.26050822474461766,0.04533670906083202,doesn’t record configuration changes for directory buckets. For more
+168,-0.2681427480935423,-0.2966554737829319,"information, see AWS Config Managed Rules and List of AWS Config Managed Rules in the AWS Config Developer Guide."
+169,-0.5427569430512221,-0.057374939989402504,"For an example of how to use AWS Config, see How to Use AWS Config to Monitor for and Respond to Amazon S3 Buckets Allowing
+                            Public Access on the AWS Security Blog."
+170,0.169470129723301,-0.15273978761479942,Use S3 Storage Lens
+171,-0.4402661388850298,0.16207788383576094,"S3 Storage Lens is a cloud-storage analytics feature that you can use to gain
+                        organization-wide visibility into object-storage usage and activity."
+172,0.22296146734855818,0.18036600721738738,"S3 Storage Lens also analyzes metrics to deliver contextual recommendations that
+                        you can use to optimize storage costs and apply best practices for"
+173,0.28852481441163613,-0.04137047652373912,"protecting your data. 
+With S3 Storage Lens, you can use metrics to generate summary insights, such as"
+174,0.135561650551849,-0.01049525476955859,"finding out how much storage you have across your entire organization or
+                        which are the fastest-growing buckets and prefixes. You can also use"
+175,0.2542369332131732,0.100848323274615,"S3 Storage Lens metrics to identify cost-optimization opportunities, implement
+                        data-protection and access-management best practices, and improve the"
+176,0.3271962421814391,-0.08345199170771386,"performance of application workloads. 
+For example, you can identify buckets that don't have S3 Lifecycle rules to"
+177,0.0025638493499110762,0.2708062009769548,"abort incomplete multipart uploads that are more than 7 days old. You can
+                        also identify buckets that aren't following data-protection best practices,"
+178,-0.5331061908385851,-0.07780359154435461,"such as using S3 Replication or S3 Versioning. For more information, see
+                            Understanding Amazon S3 Storage Lens."
+179,0.055901844499227235,0.12015836556608551,"Monitor
+                    AWS security advisories"
+180,0.2918210553644065,0.1185926776399295,"We recommend that you regularly check the security advisories posted in
+                        Trusted Advisor for your AWS account. In particular, look for warnings about Amazon S3"
+181,-0.5723342201479359,-0.03409397125973806,"buckets with ""open access permissions."" You can do this programmatically by
+                        using describe-trusted-advisor-checks."
+182,0.030204195611493585,0.42739046517191154,"Further, actively monitor the primary email address that's registered to
+                        each of your AWS accounts. AWS uses this email address to contact you"
+183,-0.2940318409499081,-0.026291185821545417,"about emerging security issues that might affect you.
+AWS operational issues with broad impact are posted on the AWS Health Dashboard - Service health."
+184,0.07665213006951048,0.01324482011501761,"Operational issues are also posted to individual accounts through the
+                        AWS Health Dashboard. For more information, see the AWS Health"
+185,-0.2234799182389796,-0.7026327862706078,documentation.
+186,0.42913640610859627,0.05802963892012951,"Monitoring data security with managed AWS security services
+Several managed AWS security services can help you identify, assess, and monitor"
+187,0.3200156250556795,0.16972055315864343,security and compliance risks for your Amazon S3 data. They can also help you protect your data
+188,0.2836448390385612,0.19975923594682857,"from those risks. These services include automated detection, monitoring, and protection"
+189,-0.48766668430579185,-0.02597527361904828,"capabilities that are designed to scale from Amazon S3 resources for a single AWS account to
+            resources for organizations spanning thousands of AWS accounts."
+190,0.2444838276311653,0.14543325766694712,"AWS detection and response services can help you identify potential security
+            misconfigurations, threats, or unexpected behaviors, so that you can quickly respond to"
+191,0.2620600515450841,0.1640477005786053,"potentially unauthorized or malicious activity in your environment. AWS data protection
+            services can help you monitor and protect your data, accounts, and workloads from"
+192,-0.4439634665443908,0.023033256015955017,"unauthorized access. They can also help you discover sensitive data, such as personally
+            identifiable information (PII), in your Amazon S3 data estate."
+193,0.16022442859855648,0.40253602332175054,"To help you identify and evaluate data security and compliance risks, managed AWS
+            security services generate findings to notify you of potential security events or issues"
+194,0.3441408641836942,-0.15858350050645098,"with your Amazon S3 data. The findings provide relevant details that you can use to investigate,"
+195,-0.2727520043077729,-0.14074625852446504,"assess, and act upon these risks according to your incident-response workflows and policies."
+196,0.11528670813828248,0.23042570558853284,"You can access findings data directly by using each service. You can also send the data to
+            other applications, services, and systems, such as your security incident and event"
+197,-0.2803296526502583,0.009707994873776087,"management system (SIEM).
+To monitor the security of your Amazon S3 data, consider using these managed AWS security services."
+198,0.11713049610774816,-0.30614973231557413,Amazon GuardDuty
+199,0.29924630070454694,0.08110272305205503,"Amazon GuardDuty is a threat-detection service that continuously monitors your
+                        AWS accounts and workloads for malicious activity and delivers detailed"
+200,0.33242713185239836,-0.10698898261764711,"security findings for visibility and remediation.
+With the S3 protection feature in GuardDuty, you can configure GuardDuty to"
+201,0.2945778529668362,-0.11055541932792749,analyze AWS CloudTrail management  and data events for your Amazon S3 resources. GuardDuty then
+202,0.40163686832370876,-0.5123154646402989,monitors those events for malicious and suspicious activity. To inform the
+203,-0.47841457125256476,0.0574296241705997,"analysis and identify potential security risks, GuardDuty uses threat-intelligence
+                        feeds and machine learning."
+204,0.051300697669317954,0.3159256525235349,"GuardDuty can monitor different kinds of activity for your Amazon S3 resources. For
+                        example, CloudTrail management events for Amazon S3 include bucket-level operations, such"
+205,0.024114109149463565,0.25998372472924275,"as ListBuckets, DeleteBucket, and
+                        PutBucketReplication. CloudTrail data events for Amazon S3 include"
+206,0.23941362373616915,0.16336932765100506,"object-level operations, such as GetObject,
+                        ListObjects, and PutObject. If GuardDuty detects"
+207,-0.4603842729762294,0.013234979546016738,"anomalous or potentially malicious activity, it generates a finding to notify
+                        you."
+208,-0.2156314584422875,-0.31122667884136107,"For more information, see Amazon S3 Protection in Amazon GuardDuty in the Amazon GuardDuty User Guide."
+209,0.16222084917209192,-0.3346168965171302,Amazon Detective
+210,0.2897368898107118,0.07081483268277261,"Amazon Detective simplifies the investigative process and helps you conduct
+                        faster, more effective security investigations. Detective provides prebuilt data"
+211,-0.5056323060910594,0.052772870827797747,"aggregations, summaries, and context that can help you analyze and assess the
+                        nature and extent of possible security issues."
+212,0.283707857518062,0.012385190905710768,"Detective automatically extracts time-based events, such as API calls from
+                        AWS CloudTrail and Amazon VPC Flow Logs for your AWS resources. It also ingests"
+213,0.3410191040860309,-0.051604800929846095,"findings generated by Amazon GuardDuty. Detective then uses machine learning, statistical"
+214,-0.4621965570735934,0.004710105162532437,"analysis, and graph theory to generate visualizations that help you conduct
+                        effective security investigations more quickly."
+215,0.20510180732536107,0.18114224073604474,"These visualizations provide a unified, interactive view of resource
+                        behaviors and the interactions between them over time. You can explore this"
+216,0.41113838854200385,-0.094325395106427,"behavior graph to examine potentially malicious actions, such as failed login"
+217,-0.5227644784376102,0.027565036817629777,"attempts or suspicious API calls. You can also see how these actions affect
+                        resources, such as S3 buckets and objects."
+218,-0.551633551537163,-0.06136618211139607,"For more information, see the Amazon Detective
+                        Administration Guide."
+219,0.11235276775427823,-0.3025742953134212,IAM Access Analyzer
+220,0.3195186107894657,-0.030966975402319685,AWS Identity and Access Management Access Analyzer (IAM Access Analyzer) can help you identify resources that
+221,0.3319424583237175,0.007422613761747399,are shared with an external entity. You can also use IAM Access Analyzer to validate
+222,-0.5078026902839624,0.033347727264686836,"IAM policies against policy grammar and best practices, and generate IAM
+                        policies based on access activity in your AWS CloudTrail logs."
+223,0.14001019787738586,0.34982758445024725,"IAM Access Analyzer uses logic-based reasoning to analyze resource policies in
+                        your AWS environment, such as bucket policies. With IAM Access Analyzer for S3, you're alerted"
+224,0.3328395260385393,0.05179301535756525,when an S3 bucket is configured to allow access to anyone on the internet or
+225,0.24876638443154425,-0.13105350465861612,"other AWS accounts, including accounts outside your organization. For example,"
+226,0.31530700357490743,-0.20002110070064788,IAM Access Analyzer for S3 can report that a bucket has read or write access provided through a
+227,0.3155030790391578,-0.08279651375050728,"bucket access control list (ACL), a bucket policy, a Multi-Region Access Point policy, or an access"
+228,0.37958217313729736,-0.2687071655119519,"point policy. For each public or shared bucket, you receive findings that"
+229,0.3204498441124001,-0.4130431197005774,"indicate the source and level of public or shared access. With these findings,"
+230,-0.5351625805575648,-0.021818612627302246,"you can take immediate and precise corrective action to restore bucket access to
+                        what you intended."
+231,-0.27184699196972734,-0.21154957086573062,"For more information, see Reviewing bucket access using IAM Access Analyzer for S3."
+232,0.14675100873983063,-0.33513435783275164,Amazon Macie
+233,0.24760829441220192,0.17144279405404608,"Amazon Macie is a security service that discovers sensitive data by using
+                        machine learning and pattern matching. Macie provides visibility into data"
+234,0.17678417699466603,0.1521778420607565,"security risks, and enables automated protection against those risks. With
+                        Macie, you can automate the discovery and reporting of sensitive data in"
+235,-0.4791855483435424,0.04946181741342685,"your Amazon S3 data estate to gain a better understanding of the data that your
+                        organization stores in S3."
+236,0.2315536458701236,0.2313759469480696,"To detect sensitive data with Macie, you can use built-in criteria and
+                        techniques that are designed to detect a large and growing list of sensitive"
+237,0.09328338937349069,0.24260121287695902,"data types for many countries and regions. These sensitive data types
+                        include multiple types of personally identifiable information (PII),"
+238,0.2153175104353919,0.24649414274096856,"financial data, and credentials data. You can also use custom criteria that
+                        you define—regular expressions that define text patterns to match"
+239,0.21744976892141707,-0.027033799784020235,"and, optionally, character sequences and proximity rules that refine the
+                        results.
+If Macie detects sensitive data in an S3 object, Macie generates a"
+240,0.2083273930406756,0.3411769784554916,"security finding to notify you. This finding provides information about the
+                        affected object, the types and number of occurrences of the sensitive data"
+241,0.4402170460593094,-0.5662849115149192,"that Macie found, and additional details to help you investigate the"
+242,-0.25967897649872373,-0.2561253232552574,"affected S3 bucket and object. For more information, see the Amazon Macie User Guide."
+243,0.13175783326060694,-0.2921712992678765,AWS Security Hub
+244,0.2072422169515145,0.1821373700829059,"AWS Security Hub is a security-posture management service that performs security
+                        best-practice checks, aggregates alerts and findings from multiple sources into"
+245,0.2946052461138893,-0.17560823271409504,"a single format, and enables automated remediation.
+Security Hub collects and provides security findings data from integrated"
+246,0.2394124370306303,-0.04856616586545952,"AWS Partner Network security solutions and AWS services, including Amazon Detective, Amazon GuardDuty,"
+247,0.3503331236447186,-0.1374730129139308,"IAM Access Analyzer, and Amazon Macie. It also generates its own findings by running"
+248,-0.5086399493016744,-0.008448399516847435,"continuous, automated security checks based on AWS best practices and
+                        supported industry standards."
+249,0.42003449935091575,-0.15753753039058505,Security Hub then correlates and consolidates findings across providers to help you prioritize and process the most significant
+250,-0.5681789559199208,0.009684550517550513,"findings. It also provides support for custom actions, which you can use to invoke responses or remediation actions for specific 
+                        classes of findings."
+251,0.2522420774663398,0.13902275943239667,"With Security Hub, you can assess the security and compliance status of your Amazon S3
+                        resources, and you can do so as part of a broader analysis of your"
+252,0.18286321947342019,0.2135046346030648,"organization's security posture in individual AWS Regions and across multiple
+                        Regions. This includes analyzing security trends and identifying the"
+253,0.35278406612072605,-0.23305469867007592,highest-priority security issues. You can also aggregate findings from multiple
+254,-0.5531693355026944,0.018445211146197436,"AWS Regions, and monitor and process aggregated findings data from a single
+                        Region."
+255,-0.18299610422006504,-0.3712525834572336,"For more information, see Amazon Simple Storage Service controls in the AWS Security Hub User Guide."
+256,0.17280109621832143,-0.2238795105599579,"Javascript is disabled or is unavailable in your browser.To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.Document"
+257,0.20314450105578533,0.13450597712071194,"ConventionsSecurityData protectionDid this page help you? - YesThanks for letting us know we're doing a good job!If you've got a moment, please tell us what we did right so we can do more of it.Did"
+258,-0.2357936687896498,-0.38614669392814,"this page help you? - NoThanks for letting us know this page needs work. We're sorry we let you down.If you've got a moment, please tell us how we can make the documentation better."
