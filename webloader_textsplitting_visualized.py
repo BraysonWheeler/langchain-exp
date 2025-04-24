@@ -5,6 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from constants import (MODEL_VERSION, MODEL_BASE_URL)
 from sklearn.decomposition import PCA
 import plotly.express as px
+import pandas
 
 model = OllamaLLM(model=MODEL_VERSION, base_url=MODEL_BASE_URL)
 embeddings = OllamaEmbeddings(model=MODEL_VERSION,  base_url=MODEL_BASE_URL)
@@ -18,7 +19,7 @@ def load_documents():
 
 def split_document_into_texts(document):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
+        chunk_size=200,
         chunk_overlap=0,
         length_function=len,
     )
@@ -39,6 +40,16 @@ if __name__ == "__main__":
         pca = PCA(n_components=2)
         components = pca.fit_transform(vector)
         data = pca.fit_transform(vector)
-        scatter = px.scatter(data, data[:, 0], data[:, 1])
+        df = pandas.DataFrame(
+            {
+                "x": data[:, 0],
+                "y": data[:, 1],
+                "query": document_text,
+            }
+        )
+
+        sample = df[:df.size]  # Change if you want an actual sample
+        sample.to_csv("./sample.csv")
+        scatter = px.scatter(sample, x=sample['x'], y=sample['y'])
         scatter.show()
         break
