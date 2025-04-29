@@ -1,0 +1,800 @@
+{"text": " what flights go from newark to boston after 5 pm", "label": "atis_flight"}
+{"text": " can you show me economy class one way fares for flights from oakland to dallas on december sixteenth", "label": "atis_airfare"}
+{"text": " show me the latest flight from salt lake city to phoenix", "label": "atis_flight"}
+{"text": " pittsburgh to denver", "label": "atis_flight"}
+{"text": " show me all flights from san francisco to atlanta", "label": "atis_flight"}
+{"text": " flights from dallas to houston in the morning", "label": "atis_flight"}
+{"text": " i am interested in a flight from cincinnati to burbank the flight should be american and leave in the afternoon i need to know the aircraft and flight number", "label": "atis_flight"}
+{"text": " find me the cheapest one way fare i can get from boston to denver", "label": "atis_airfare"}
+{"text": " show all flights from miami to jfk", "label": "atis_flight"}
+{"text": " list all flights from memphis to seattle", "label": "atis_flight"}
+{"text": " a flight on continental airlines leaving boston and going to denver", "label": "atis_flight"}
+{"text": " what flights from houston to milwaukee on friday in the evening on american airlines", "label": "atis_flight"}
+{"text": " list all flights from indianapolis to seattle", "label": "atis_flight"}
+{"text": " now show me the flights from denver to atlanta", "label": "atis_flight"}
+{"text": " what is the first flight from atlanta to boston leaving on thursday september fifth", "label": "atis_flight"}
+{"text": " is there ground transportation in oakland", "label": "atis_ground_service"}
+{"text": " what economy flights are available from dallas to baltimore on december seventeenth", "label": "atis_flight"}
+{"text": " list all flights from baltimore to philadelphia", "label": "atis_flight"}
+{"text": " are there any flights from denver to atlanta which connect in pittsburgh", "label": "atis_flight"}
+{"text": " what is the price of a first class ticket from milwaukee to san francisco round trip", "label": "atis_airfare"}
+{"text": " what is the earliest flight from boston to san francisco", "label": "atis_flight"}
+{"text": " please list the flight schedule from baltimore to san francisco on friday nights", "label": "atis_flight_time"}
+{"text": " what would be cost of a round trip from pittsburgh to san francisco", "label": "atis_airfare"}
+{"text": " i am interested in a flight on american airlines from dallas to washington", "label": "atis_flight"}
+{"text": " please list the flight times from pittsburgh to newark", "label": "atis_flight_time"}
+{"text": " on flight us air 2153 from san francisco to baltimore what time and what city does the plane stop in between", "label": "atis_flight"}
+{"text": " find a flight between denver and oakland the flight should be in the afternoon and arrive close to 5 pm the flight should be nonstop", "label": "atis_flight"}
+{"text": " on the flight from baltimore to san francisco on us air leaving at 420 what type of aircraft is used", "label": "atis_flight"}
+{"text": " i would like to book a flight from los angeles to pittsburgh on june first", "label": "atis_flight"}
+{"text": " show me ground transportation in san francisco", "label": "atis_ground_service"}
+{"text": " show me the coach fares from baltimore to dallas", "label": "atis_airfare"}
+{"text": " i would like a flight from philadelphia to dallas arrive dallas about 12 noon", "label": "atis_flight"}
+{"text": " show me all flights from pittsburgh to baltimore tomorrow", "label": "atis_flight"}
+{"text": " show me all flights from pittsburgh to atlanta", "label": "atis_flight"}
+{"text": " please give all flights from dallas to oakland california monday", "label": "atis_flight"}
+{"text": " what are the lowest one way fares from atlanta to pittsburgh", "label": "atis_airfare"}
+{"text": " show me all flights from san francisco that go to boston baltimore or philadelphia", "label": "atis_flight"}
+{"text": " what is the cost of a first class ticket from baltimore to dallas", "label": "atis_airfare"}
+{"text": " what is the earliest flight from boston to bwi that serves a snack", "label": "atis_flight"}
+{"text": " i want a flight from philadelphia to dallas that at least has one stop", "label": "atis_flight"}
+{"text": " i'd like to see flights from pittsburgh to atlanta", "label": "atis_flight"}
+{"text": " what flights are there from newark to chicago on continental", "label": "atis_flight"}
+{"text": " what are the ground transportation services in philadelphia", "label": "atis_ground_service"}
+{"text": " i would like to fly from denver to pittsburgh on united airlines", "label": "atis_flight"}
+{"text": " show me the flights from san francisco to washington dc", "label": "atis_flight"}
+{"text": " give me the cheapest flight from charlotte to long beach", "label": "atis_flight"}
+{"text": " which airline serves denver pittsburgh and atlanta", "label": "atis_airline"}
+{"text": " show me all flights with fares from pittsburgh to san francisco", "label": "atis_flight"}
+{"text": " what flights does american airlines fly from philadelphia to dallas", "label": "atis_flight"}
+{"text": " find me the earliest flight from boston to atlanta and the latest return to boston on the same day", "label": "atis_flight"}
+{"text": " are there any flights from philadelphia to dallas which stop in atlanta", "label": "atis_flight"}
+{"text": " show me all flights from san diego to new york nonstop", "label": "atis_flight"}
+{"text": " show me the flights from st. petersburg to toronto that arrive before noon", "label": "atis_flight"}
+{"text": " i'd like to book the cheapest one way flight from denver to pittsburgh on july fifteenth", "label": "atis_flight"}
+{"text": " what flights are available from denver to baltimore first class on united airlines arriving may seventh before noon", "label": "atis_flight"}
+{"text": " please list all airline flights between denver and boston", "label": "atis_airline"}
+{"text": " show me the flights from newark new jersey to ontario international next saturday", "label": "atis_flight"}
+{"text": " list flights from detroit to san diego on thursday", "label": "atis_flight"}
+{"text": " find me the latest flight leaving atlanta august seventh and arriving in denver", "label": "atis_flight"}
+{"text": " i want information on flights from atlanta to washington dc give me information on flights after 4 pm on wednesday", "label": "atis_flight"}
+{"text": " show me the earliest flight from denver to las vegas", "label": "atis_flight"}
+{"text": " list all flights from boston to san francisco on us air", "label": "atis_flight"}
+{"text": " show me all daily flights between milwaukee and orlando", "label": "atis_flight"}
+{"text": " can you tell me which flights go from memphis to tacoma and make a stop in los angeles", "label": "atis_flight"}
+{"text": " how many daily us air flights are there between philadelphia and pittsburgh", "label": "atis_quantity"}
+{"text": " on a flight from san francisco to atlanta that leaves before 8 am is there such a flight", "label": "atis_flight"}
+{"text": " show all nonstop flights from boston to san francisco", "label": "atis_flight"}
+{"text": " round trip fares from pittsburgh to philadelphia under 1000 dollars", "label": "atis_airfare"}
+{"text": " what flights are provided by american airlines", "label": "atis_flight"}
+{"text": " which airlines have first class flights today", "label": "atis_airline"}
+{"text": " what is the earliest flight going from san francisco to dallas on monday august nineteenth", "label": "atis_flight"}
+{"text": " i'd like to fly from dallas to san francisco at approximately 615 pm", "label": "atis_flight"}
+{"text": " what's the lowest one way fare from pittsburgh to denver", "label": "atis_airfare"}
+{"text": " show me the flights from boston to san francisco that stop in atlanta", "label": "atis_flight"}
+{"text": " what kind of ground transportation is available in denver", "label": "atis_ground_service"}
+{"text": " what flights are there on delta from boston to dallas", "label": "atis_flight"}
+{"text": " show me the flights from salt lake city to milwaukee", "label": "atis_flight"}
+{"text": " i need to go from boston to atlanta and back in the same day find me the earliest flight from boston", "label": "atis_flight"}
+{"text": " list all trans world airline flights from indianapolis to houston that arrive in houston between 1030 am and 1130 am", "label": "atis_flight"}
+{"text": " what does fare code qo mean", "label": "atis_abbreviation"}
+{"text": " i would like a list of flights from pittsburgh to dallas", "label": "atis_flight"}
+{"text": " give me the flights from pittsburgh to los angeles thursday evening", "label": "atis_flight"}
+{"text": " flight from denver to dallas fort worth", "label": "atis_flight"}
+{"text": " i'd like a flight from montreal to san diego for sunday", "label": "atis_flight"}
+{"text": " find the cheapest one way fare from boston to san francisco", "label": "atis_airfare"}
+{"text": " what is the first flight from atlanta to baltimore that serves lunch", "label": "atis_flight"}
+{"text": " please tell me which airline has the most departures from atlanta", "label": "atis_airline"}
+{"text": " show me the flights from denver to atlanta", "label": "atis_flight"}
+{"text": " which united airlines flight flies from boston to san francisco and makes a stopover in philadelphia", "label": "atis_flight"}
+{"text": " list all flights going from boston to atlanta after 6 o'clock on wednesday and before 7 o'clock am on thursday", "label": "atis_flight"}
+{"text": " i want a flight from atlanta to pittsburgh", "label": "atis_flight"}
+{"text": " from philadelphia to toronto", "label": "atis_flight"}
+{"text": " what flight do you have from pittsburgh to san francisco on the morning of august twenty seventh", "label": "atis_flight"}
+{"text": " what is the earliest flight from boston to san francisco on november seventh", "label": "atis_flight"}
+{"text": " what flights from orlando to tacoma on saturday", "label": "atis_flight"}
+{"text": " what is the ground transportation from philadelphia airport to the city proper", "label": "atis_ground_service"}
+{"text": " is there ground transportation available in denver", "label": "atis_ground_service"}
+{"text": " i'd like a flight from burbank to tacoma washington", "label": "atis_flight"}
+{"text": " i need information on flights leaving philadelphia on friday arriving in oakland california", "label": "atis_flight"}
+{"text": " what is the cheapest flight from atlanta to pittsburgh one way", "label": "atis_flight"}
+{"text": " please list all flights from atlanta to baltimore on wednesday and thursday", "label": "atis_flight"}
+{"text": " flights from nashville to orlando daily", "label": "atis_flight"}
+{"text": " is there an early morning delta airlines flight between boston and washington", "label": "atis_flight"}
+{"text": " i'd like a flight from columbus to phoenix stopping in cincinnati and serving dinner what's available", "label": "atis_flight"}
+{"text": " show me all the flights from philadelphia to newark", "label": "atis_flight"}
+{"text": " list all nonstop flights on sunday from tampa to charlotte", "label": "atis_flight"}
+{"text": " what flights leave from phoenix to nashville on american airlines", "label": "atis_flight"}
+{"text": " flights from kansas city to cleveland and price", "label": "atis_flight"}
+{"text": " what type of ground transportation is available between the airport and downtown san francisco", "label": "atis_ground_service"}
+{"text": " what is the earliest flight leaving boston on july first to dallas on july first", "label": "atis_flight"}
+{"text": " show me the fares from dallas to san francisco", "label": "atis_airfare"}
+{"text": " i need a return flight from denver to atlanta", "label": "atis_flight"}
+{"text": " in the next two days i want to fly from nashville to san jose or to tacoma", "label": "atis_flight"}
+{"text": " list daily flights from boston to oakland using twa", "label": "atis_flight"}
+{"text": " would you tell me the cheapest one way fare from boston to oakland", "label": "atis_airfare"}
+{"text": " are there any flights from boston to san francisco stopping in denver", "label": "atis_flight"}
+{"text": " what is the price of business class from boston to san francisco on twa", "label": "atis_airfare"}
+{"text": " flights from washington august second", "label": "atis_flight"}
+{"text": " what is booking class c", "label": "atis_abbreviation"}
+{"text": " i'm looking for a flight from oakland to denver with a stopover in dallas fort worth", "label": "atis_flight"}
+{"text": " list the nonstop flights early tuesday morning from dallas to atlanta", "label": "atis_flight"}
+{"text": " list the flight from philadelphia to san francisco on american airlines", "label": "atis_flight"}
+{"text": " i would like to see the flights from denver to philadelphia please", "label": "atis_flight"}
+{"text": " delta flights to san francisco please", "label": "atis_flight"}
+{"text": " i need information from denver to pittsburgh", "label": "atis_flight"}
+{"text": " i need a cheap flight from baltimore to san francisco", "label": "atis_flight"}
+{"text": " i need a flight from montreal quebec to san diego california leaving this sunday", "label": "atis_flight"}
+{"text": " and flight from oakland to boston leaving after midnight", "label": "atis_flight"}
+{"text": " show sunday flights from seattle to chicago", "label": "atis_flight"}
+{"text": " united airlines flights stopping in denver before noon", "label": "atis_flight"}
+{"text": " what's fare code yn", "label": "atis_abbreviation"}
+{"text": " which flight between pittsburgh and baltimore on july nineteenth has the smallest seating capacity", "label": "atis_flight"}
+{"text": " i want a cheap from denver to atlanta", "label": "atis_flight"}
+{"text": " what is the arrival time in san francisco for the 755 am flight leaving washington", "label": "atis_flight_time"}
+{"text": " all flights to baltimore after 6 pm", "label": "atis_flight"}
+{"text": " list all nonstop flights from los angeles to pittsburgh before 5 pm on tuesday", "label": "atis_flight"}
+{"text": " what is the cheapest flight from boston to bwi", "label": "atis_flight"}
+{"text": " i need to fly from boston to denver on to san francisco and back", "label": "atis_flight"}
+{"text": " list flights from phoenix to detroit on thursday june twenty fourth", "label": "atis_flight"}
+{"text": " i would like a flight from pittsburgh to san francisco on august twentieth", "label": "atis_flight"}
+{"text": " do you have any airlines that would stop at denver on the way from baltimore to san francisco", "label": "atis_airline"}
+{"text": " what are the flights which depart from san francisco fly to washington via indianapolis and arrive by 9 pm", "label": "atis_flight"}
+{"text": " all flights from boston to washington dc after 5 pm on november eleventh economy class", "label": "atis_flight"}
+{"text": " i would like to find out what flights there are on friday june eleventh from st. petersburg to milwaukee and then from milwaukee to tacoma thank you", "label": "atis_flight"}
+{"text": " what are the prices of the flights from dallas to baltimore", "label": "atis_airfare"}
+{"text": " which flights are serviced by american airlines", "label": "atis_flight"}
+{"text": " show me all flights from boston to dallas fort worth both direct and connecting that arrive before noon", "label": "atis_flight"}
+{"text": " first flights from pittsburgh to atlanta on a thursday", "label": "atis_flight"}
+{"text": " may i have a list of flights going from boston to denver on the twenty ninth of july", "label": "atis_flight"}
+{"text": " show me all the northwest flights from new york to milwaukee that leave at 720 am", "label": "atis_flight"}
+{"text": " all flights from boston to philadelphia which show up on tuesday afternoon", "label": "atis_flight"}
+{"text": " flights from memphis to seattle", "label": "atis_flight"}
+{"text": " i'd like to arrange a flight from pittsburgh to atlanta", "label": "atis_flight"}
+{"text": " please give me the flights from boston to pittsburgh on thursday of next week", "label": "atis_flight"}
+{"text": " on november twenty third what flights are available between boston and denver", "label": "atis_flight"}
+{"text": " how much does the american airlines flight 71 from dallas to san francisco cost", "label": "atis_airfare"}
+{"text": " i'm trying to make a connection between denver and san francisco does delta airline fly between those two", "label": "atis_flight"}
+{"text": " i would like a list of round trip flights between indianapolis and orlando florida for the twenty seventh and the twenty eighth of december", "label": "atis_flight"}
+{"text": " i'd like a first class flight from denver to baltimore on january first", "label": "atis_flight"}
+{"text": " i would like your rates between atlanta and boston on september third", "label": "atis_airfare"}
+{"text": " what flights go from philadelphia to san francisco with a stopover in dallas", "label": "atis_flight"}
+{"text": " could you show me all the flights from oakland to salt lake city", "label": "atis_flight"}
+{"text": " what is the least expensive flight from denver to atlanta", "label": "atis_flight"}
+{"text": " list all flights that leave from baltimore or denver or pittsburgh and arrive in philadelphia", "label": "atis_flight"}
+{"text": " i now need a flight from san jose to houston leaving on sunday the fourth", "label": "atis_flight"}
+{"text": " show me all the night fares between philadelphia and san francisco", "label": "atis_airfare"}
+{"text": " please list the friday afternoon flights from san jose to dallas on american airlines", "label": "atis_flight"}
+{"text": " how many first class flights does united have today", "label": "atis_quantity"}
+{"text": " show me the flights from denver to westchester county", "label": "atis_flight"}
+{"text": " show me first class flights from new york to miami leaving on a tuesday", "label": "atis_flight"}
+{"text": " last nonstop flight from los angeles to pittsburgh on monday night", "label": "atis_flight"}
+{"text": " does any airline have an afternoon flight from boston to oakland", "label": "atis_airline"}
+{"text": " are there any flights from atlanta to denver", "label": "atis_flight"}
+{"text": " i need a flight from kansas city to chicago that leaves wednesday and arrives in chicago around 7 pm", "label": "atis_flight"}
+{"text": " what flights are available wednesday afternoon from denver to san francisco", "label": "atis_flight"}
+{"text": " show all flights from boston to denver on july thirty first", "label": "atis_flight"}
+{"text": " round trip fares from denver to philadelphia less than 1000 dollars", "label": "atis_airfare"}
+{"text": " does american airlines fly from atlanta to philadelphia", "label": "atis_flight"}
+{"text": " show me the flights on tuesday morning from charlotte to baltimore", "label": "atis_flight"}
+{"text": " are there any flights from denver to pittsburgh with stops in atlanta", "label": "atis_flight"}
+{"text": " which airlines serve atlanta", "label": "atis_airline"}
+{"text": " i'd like a nonstop flight from indianapolis to san diego that serves dinner what's available", "label": "atis_flight"}
+{"text": " how much is a first class ticket from baltimore to san francisco", "label": "atis_airfare"}
+{"text": " flights from cincinnati to denver on american airlines", "label": "atis_flight"}
+{"text": " i'd like to fly from philadelphia to san francisco through dallas", "label": "atis_flight"}
+{"text": " all flights from pittsburgh to dallas round trip after 12 pm less than 100", "label": "atis_flight"}
+{"text": " which airline provides business class flights", "label": "atis_airline"}
+{"text": " what kind of airplane is flight ua 281 from boston to denver", "label": "atis_aircraft"}
+{"text": " is there a flight from charlotte to newark on tuesday evening", "label": "atis_flight"}
+{"text": " give me flights on american airlines from milwaukee to phoenix", "label": "atis_flight"}
+{"text": " what nonstop flights between boston and washington arrive after 4 o'clock pm", "label": "atis_flight"}
+{"text": " flights from san francisco august one", "label": "atis_flight"}
+{"text": " what's the first flight from dallas to houston", "label": "atis_flight"}
+{"text": " i want to travel from atlanta to baltimore early in the morning first flight", "label": "atis_flight"}
+{"text": " what's the smallest plane that flies from pittsburgh to baltimore on eight sixteen", "label": "atis_aircraft"}
+{"text": " tell me about flights on american airlines from dallas fort worth to philadelphia on june twenty ninth", "label": "atis_flight"}
+{"text": " show me flights from philadelphia to oakland on friday", "label": "atis_flight"}
+{"text": " list the nonstop flights on wednesday june second from miami to baltimore arriving in baltimore between 1115 am and 1245 pm", "label": "atis_flight"}
+{"text": " what does fare code q mean", "label": "atis_abbreviation"}
+{"text": " list nonstop flights from houston to dallas which arrive before midnight", "label": "atis_flight"}
+{"text": " what is the cheapest round trip fare between boston and san francisco", "label": "atis_airfare"}
+{"text": " on eastern flight 825 flying from atlanta to denver can you tell me what type of aircraft is used on a flight when it leaves at 555", "label": "atis_flight"}
+{"text": " 630 am flight on august twenty seventh from atlanta to dallas", "label": "atis_flight"}
+{"text": " what flights leave pittsburgh and arrive in los angeles after 5 pm on thursday", "label": "atis_flight"}
+{"text": " what are the nonstop flights on america west or southwest air from kansas city to burbank on saturday may twenty two", "label": "atis_flight"}
+{"text": " what is the schedule of ground transportation from the airport in philadelphia into downtown", "label": "atis_ground_service"}
+{"text": " what are the costs of flights from dallas to boston tomorrow", "label": "atis_airfare"}
+{"text": " show me the northwest flights from detroit to st. petersburg", "label": "atis_flight"}
+{"text": " find me a flight on united from boston to san francisco with a stopover in denver", "label": "atis_flight"}
+{"text": " list flights from boston to san francisco that serve only breakfast", "label": "atis_flight"}
+{"text": " show me the flights from love field to other airports", "label": "atis_flight"}
+{"text": " how many us air flights leave from washington", "label": "atis_quantity"}
+{"text": " what flight goes from denver to baltimore first class on united airlines arriving on may seventh", "label": "atis_flight"}
+{"text": " what are all the flights from boston to dallas", "label": "atis_flight"}
+{"text": " us 201", "label": "atis_flight"}
+{"text": " what flights from atlanta to washington", "label": "atis_flight"}
+{"text": " show me flights arriving in baltimore from pittsburgh between 4 and 5 pm", "label": "atis_flight"}
+{"text": " atlanta ground transportation", "label": "atis_ground_service"}
+{"text": " what is the cost of flight dl 106 from philadelphia to boston", "label": "atis_airfare"}
+{"text": " how can i go from the san francisco airport to downtown san francisco", "label": "atis_flight"}
+{"text": " find the flights from boston to san francisco leaving after 6 pm", "label": "atis_flight"}
+{"text": " i'd like to see flights from baltimore to atlanta", "label": "atis_flight"}
+{"text": " how many airlines have flights with service class yn", "label": "atis_quantity"}
+{"text": " show me flights from seattle to san francisco that leave after 5 pm", "label": "atis_flight"}
+{"text": " show me flights from los angeles to pittsburgh on monday evening", "label": "atis_flight"}
+{"text": " what flights are there from newark to tampa", "label": "atis_flight"}
+{"text": " all one way flights between boston and philadelphia", "label": "atis_flight"}
+{"text": " what do you have going from atlanta to philadelphia serving breakfast", "label": "atis_flight"}
+{"text": " show me round trip fares from san jose to salt lake city", "label": "atis_airfare"}
+{"text": " show me the airlines with first class flights", "label": "atis_airline"}
+{"text": " i live in denver and i'd like to make a trip to pittsburgh", "label": "atis_flight"}
+{"text": " does american airlines have a flight from pittsburgh to atlanta", "label": "atis_flight"}
+{"text": " which airlines fly from boston to washington dc but stopover in some other city", "label": "atis_airline"}
+{"text": " show me flights from milwaukee to orlando on wednesday night", "label": "atis_flight"}
+{"text": " do all the flights to oakland land at the same place", "label": "atis_flight"}
+{"text": " leaving washington going to san francisco the latest flight", "label": "atis_flight"}
+{"text": " what is the airfare between denver and pittsburgh", "label": "atis_airfare"}
+{"text": " how much does it cost to go from downtown to logan airport", "label": "atis_airfare"}
+{"text": " show me all flights from baltimore to dallas", "label": "atis_flight"}
+{"text": " i would like the time of all flights from san francisco to pittsburgh on sunday", "label": "atis_flight_time"}
+{"text": " now show me the flights from denver to philadelphia on a saturday", "label": "atis_flight"}
+{"text": " is there a flight on american airlines from boston to denver", "label": "atis_flight"}
+{"text": " please give me all flights from long beach to memphis", "label": "atis_flight"}
+{"text": " show me the first class fares from boston to denver", "label": "atis_airfare"}
+{"text": " the cheapest flights from atlanta to philadelphia that arrive after 12 pm on a tuesday", "label": "atis_flight"}
+{"text": " could you please give me the round trip fare from denver to atlanta", "label": "atis_airfare"}
+{"text": " okay i need to get a flight from houston to seattle", "label": "atis_flight"}
+{"text": " i need a flight this sunday from miami to las vegas and i would prefer a morning flight", "label": "atis_flight"}
+{"text": " what flights leave seattle on sunday on continental after 9 pm", "label": "atis_flight"}
+{"text": " flights from houston to los angeles departing after 1026", "label": "atis_flight"}
+{"text": " i'd like to fly from philadelphia to dallas through atlanta", "label": "atis_flight"}
+{"text": " what is the lowest price fare from atlanta to san francisco on flight delta 82 and delta 139", "label": "atis_airfare"}
+{"text": " give me the earliest flight tomorrow on united airlines from st. petersburg to milwaukee", "label": "atis_flight"}
+{"text": " show me ground transportation for boston", "label": "atis_ground_service"}
+{"text": " please list all united flights between pittsburgh and baltimore", "label": "atis_flight"}
+{"text": " i would like to fly from st. paul to san jose monday morning from san jose to houston tuesday morning and from houston to st. paul on wednesday morning", "label": "atis_flight"}
+{"text": " i would like to find a flight that goes from boston to orlando i would like it to have a stop in new york and i would like a flight that serves breakfast", "label": "atis_flight"}
+{"text": " looking for a flight from denver to salt lake city", "label": "atis_flight"}
+{"text": " return from miami to new york on tower air on saturdays", "label": "atis_flight"}
+{"text": " find a flight from philadelphia to san francisco please on delta", "label": "atis_flight"}
+{"text": " show me the flights from pittsburgh to baltimore", "label": "atis_flight"}
+{"text": " flights from denver to baltimore between 10 am and 2 pm", "label": "atis_flight"}
+{"text": " what's the cheapest flight from san francisco to boston", "label": "atis_flight"}
+{"text": " show me all flights from dallas to pittsburgh on monday which leave after 8 o'clock pm", "label": "atis_flight"}
+{"text": " show me all flights from charlotte", "label": "atis_flight"}
+{"text": " okay tell me what the earliest flight is that leaves between atlanta and denver", "label": "atis_flight"}
+{"text": " what are the lowest one way fares from atlanta to denver", "label": "atis_airfare"}
+{"text": " now show me the flights from memphis to cleveland", "label": "atis_flight"}
+{"text": " what is the first class fare for a round trip dallas to denver", "label": "atis_airfare"}
+{"text": " give me the flights from new york to las vegas and memphis to las vegas on sunday", "label": "atis_flight"}
+{"text": " show me us air fares for next sunday from miami to cleveland", "label": "atis_airfare"}
+{"text": " what are the round trip fares for flights from denver to philadelphia arriving after 1700 on continental", "label": "atis_airfare"}
+{"text": " i need a flight from st. petersburg to charlotte which will get me into charlotte by 5 pm or as soon thereafter as possible", "label": "atis_flight"}
+{"text": " how many united flights are there from san francisco please", "label": "atis_quantity"}
+{"text": " find me a flight from boston to san francisco with layover in denver on united", "label": "atis_flight"}
+{"text": " show me fares from baltimore to philadelphia", "label": "atis_airfare"}
+{"text": " all flights phoenix to sfo", "label": "atis_flight"}
+{"text": " could you please give me a one way fare from pittsburgh to atlanta", "label": "atis_airfare"}
+{"text": " show all connecting flights from pittsburgh to oakland", "label": "atis_flight"}
+{"text": " show me flights leaving from denver colorado to pittsburgh pennsylvania on wednesdays after 5 pm", "label": "atis_flight"}
+{"text": " also show me flights from san francisco to pittsburgh on tuesday", "label": "atis_flight"}
+{"text": " what does the abbreviation co mean", "label": "atis_abbreviation"}
+{"text": " does the phoenix airport have ground transportation to and from downtown", "label": "atis_ground_service"}
+{"text": " show me the flights from san diego to newark", "label": "atis_flight"}
+{"text": " what type of plane is an m80", "label": "atis_aircraft"}
+{"text": " flights from new york to miami", "label": "atis_flight"}
+{"text": " nonstop flights from seattle to denver", "label": "atis_flight"}
+{"text": " can you give me information on all the flights from san francisco no from pittsburgh to san francisco on monday", "label": "atis_flight"}
+{"text": " i wish to fly from boston to washington please find an airline for me", "label": "atis_flight"}
+{"text": " what times on wednesday could i take a plane from denver to oakland", "label": "atis_flight_time"}
+{"text": " please tell me how many nonstop flights there are from boston to atlanta", "label": "atis_quantity"}
+{"text": " show me the flights available from dallas to baltimore august third", "label": "atis_flight"}
+{"text": " i'd like to know the shortest trip between boston and san francisco", "label": "atis_flight"}
+{"text": " on continental airlines any class service from san francisco to pittsburgh", "label": "atis_flight"}
+{"text": " flights from kansas city to cleveland on wednesday", "label": "atis_flight"}
+{"text": " show me the flights from pittsburgh to baltimore arriving in baltimore on june fourteenth", "label": "atis_flight"}
+{"text": " show me flights from denver to atlanta on june sixteenth", "label": "atis_flight"}
+{"text": " i would like to know the latest flight on wednesday you have leaving from oakland to salt lake city which offers a meal", "label": "atis_flight"}
+{"text": " show me flights from pittsburgh to philadelphia", "label": "atis_flight"}
+{"text": " what are the classes of service for american airlines", "label": "atis_flight"}
+{"text": " please give me flights leaving san francisco and going to pittsburgh", "label": "atis_flight"}
+{"text": " hello i'd like a delta flight from atlanta to boston", "label": "atis_flight"}
+{"text": " show me the type of aircraft that cp uses", "label": "atis_aircraft"}
+{"text": " could you find me the cheapest fare from boston to san francisco", "label": "atis_airfare"}
+{"text": " find the cheapest flight from denver to atlanta with a stopover in pittsburgh", "label": "atis_flight"}
+{"text": " show me a list of ground transportation at denver", "label": "atis_ground_service"}
+{"text": " what does fare code qw mean", "label": "atis_abbreviation"}
+{"text": " show me all flights from atlanta to dallas round trip less than 1100 dollars", "label": "atis_flight"}
+{"text": " i need a listing of flights from new york city to montreal canada departing thursday in the morning", "label": "atis_flight"}
+{"text": " i would like some information on flights leaving boston to atlanta", "label": "atis_flight"}
+{"text": " give me the flights on december twenty seventh with the fares from indianapolis to orlando", "label": "atis_flight"}
+{"text": " show me the flights from boston to atlanta", "label": "atis_flight"}
+{"text": " from denver to washington dc on monday november eleventh 1991", "label": "atis_flight"}
+{"text": " from seattle to salt lake city", "label": "atis_flight"}
+{"text": " show me the cheapest round trip fare from baltimore to dallas", "label": "atis_airfare"}
+{"text": " i need a flight from san francisco to boston that leaves after 10 pm", "label": "atis_flight"}
+{"text": " show the flights from denver to san francisco", "label": "atis_flight"}
+{"text": " us air next wednesday from cleveland to miami", "label": "atis_flight"}
+{"text": " what is sa", "label": "atis_abbreviation"}
+{"text": " show me the flights from philadelphia to atlanta", "label": "atis_flight"}
+{"text": " ground transportation denver", "label": "atis_ground_service"}
+{"text": " show me all the us air flights leaving pittsburgh between 12 and 4 in the afternoon", "label": "atis_flight"}
+{"text": " show me flights from atlanta to baltimore denver and dallas", "label": "atis_flight"}
+{"text": " i want to leave boston at 838", "label": "atis_flight"}
+{"text": " what is the latest flight leaving pittsburgh returning to denver", "label": "atis_flight"}
+{"text": " please list the monday morning flights from kansas city to atlanta", "label": "atis_flight"}
+{"text": " what are the flights from tacoma to san jose also on tuesday the eighteenth of may", "label": "atis_flight"}
+{"text": " what kind of ground transportation can you offer me in seattle", "label": "atis_ground_service"}
+{"text": " i need a flight from san diego to indianapolis leaving in the afternoon on tuesday", "label": "atis_flight"}
+{"text": " i'd like to find the cheapest flight from boston to san francisco", "label": "atis_flight"}
+{"text": " find me the earliest flight from boston to atlanta on any day of the week", "label": "atis_flight"}
+{"text": " what is the least expensive way to fly from philadelphia to san francisco", "label": "atis_flight"}
+{"text": " please list all the flights from boston to denver which serve meals", "label": "atis_flight"}
+{"text": " show me flights to san francisco from philadelphia stopping in dallas", "label": "atis_flight"}
+{"text": " is there a delta flight from boston to san francisco that stops in denver", "label": "atis_flight"}
+{"text": " what are the cheapest flights from pittsburgh to atlanta", "label": "atis_flight"}
+{"text": " what are the flights from dallas to san francisco on tuesday october first", "label": "atis_flight"}
+{"text": " code ff", "label": "atis_abbreviation"}
+{"text": " could you please tell me the airlines that fly from toronto to san diego", "label": "atis_airline"}
+{"text": " what are all the flights on delta in and out of fort worth", "label": "atis_flight"}
+{"text": " what are the cheapest round trip flights from denver to atlanta", "label": "atis_flight"}
+{"text": " tell me about ground transportation in st. petersburg airport", "label": "atis_ground_service"}
+{"text": " is there limousine service available at baltimore airport", "label": "atis_ground_service"}
+{"text": " which airline can fly me from atlanta to denver to san francisco", "label": "atis_airline"}
+{"text": " which airline has the most arrivals in atlanta", "label": "atis_airline"}
+{"text": " which airline has the smallest plane leaving pittsburgh and arriving in baltimore on july fourth", "label": "atis_airline"}
+{"text": " can you tell me how to get from the airport in philadelphia to downtown", "label": "atis_flight"}
+{"text": " show me the ground transportation in denver", "label": "atis_ground_service"}
+{"text": " airlines that fly to miami from new york on friday", "label": "atis_airline"}
+{"text": " can you show me flights from dallas to atlanta on tuesday night", "label": "atis_flight"}
+{"text": " show me the flights on twa to atlanta in the morning", "label": "atis_flight"}
+{"text": " i'd like an afternoon flight from atlanta to san francisco with a stopover in denver arriving i'd say about mealtime", "label": "atis_flight"}
+{"text": " what are the flights available after 6 pm between san francisco and boston", "label": "atis_flight"}
+{"text": " i'm interested in a flight on american airlines from dallas to washington", "label": "atis_flight"}
+{"text": " flights from cleveland to kansas city on monday", "label": "atis_flight"}
+{"text": " i would like to fly the cheapest rate available from pittsburgh to atlanta on wednesday morning", "label": "atis_flight"}
+{"text": " are there any flights from dallas fort worth to boston leaving before 10 am", "label": "atis_flight"}
+{"text": " on november twenty third of this year 1991 i'd like to fly from atlanta to denver and i'd like to fly on delta", "label": "atis_flight"}
+{"text": " show me all flights from denver to burbank", "label": "atis_flight"}
+{"text": " show me the car rentals in baltimore", "label": "atis_ground_service"}
+{"text": " i need flight information between atlanta and boston", "label": "atis_flight"}
+{"text": " cheapest fare from indianapolis to seattle", "label": "atis_airfare"}
+{"text": " list all flights from atlanta to dallas on friday", "label": "atis_flight"}
+{"text": " list the delta airlines flights from boston to philadelphia", "label": "atis_flight"}
+{"text": " what flights are there from new york city to las vegas", "label": "atis_flight"}
+{"text": " show me fares from seattle to minneapolis", "label": "atis_airfare"}
+{"text": " all united airlines flights with stopovers in denver", "label": "atis_flight"}
+{"text": " what is the latest us air flight leaving philadelphia and returning to boston", "label": "atis_flight"}
+{"text": " please show me flights from san francisco to dallas", "label": "atis_flight"}
+{"text": " list all flights from boston to san francisco with the maximum number of stops", "label": "atis_flight"}
+{"text": " does lufthansa fly between boston and oakland", "label": "atis_flight"}
+{"text": " show ground transportation for pittsburgh", "label": "atis_ground_service"}
+{"text": " what is the flight schedule of the f28 from pittsburgh to baltimore", "label": "atis_flight_time"}
+{"text": " show me all flights from san francisco to la guardia nonstop", "label": "atis_flight"}
+{"text": " tell me about flights from toronto to salt lake city leaving after 530 pm", "label": "atis_flight"}
+{"text": " i want to go between boston and san francisco", "label": "atis_flight"}
+{"text": " are there any nonstop flights leaving from denver arriving in baltimore on july seventh", "label": "atis_flight"}
+{"text": " i want to fly nonstop from denver to dallas", "label": "atis_flight"}
+{"text": " what is the available ground transportation between the airport in denver and downtown", "label": "atis_ground_service"}
+{"text": " what's the ground transportation like at pittsburgh", "label": "atis_ground_service"}
+{"text": " i'd like a flight tomorrow from kansas city to newark in the morning", "label": "atis_flight"}
+{"text": " i would like to fly from denver to atlanta by way of pittsburgh", "label": "atis_flight"}
+{"text": " show me the flights from pittsburgh to los angeles on thursday", "label": "atis_flight"}
+{"text": " ground transportation oakland", "label": "atis_ground_service"}
+{"text": " what's the earliest flight from pittsburgh to baltimore on thursday morning", "label": "atis_flight"}
+{"text": " i would like to find a flight from pittsburgh to boston on wednesday and i have to be in boston by one so i'd like a flight out of here no later than 11 am", "label": "atis_flight"}
+{"text": " flights on friday from newark to tampa", "label": "atis_flight"}
+{"text": " hello i would like to plan a flight on american airlines from boston to denver", "label": "atis_flight"}
+{"text": " flights from memphis to las vegas on sunday", "label": "atis_flight"}
+{"text": " what flights leave after 7 pm from pittsburgh to philadelphia", "label": "atis_flight"}
+{"text": " how many flights does each airline have with business class service", "label": "atis_quantity"}
+{"text": " show me all the flights from columbus to baltimore", "label": "atis_flight"}
+{"text": " show the flights from pittsburgh to san francisco again on monday", "label": "atis_flight"}
+{"text": " what is the cheapest fare i can get from dallas to denver", "label": "atis_airfare"}
+{"text": " show me flights from baltimore to dallas", "label": "atis_flight"}
+{"text": " what flights do you have from burbank to tacoma washington", "label": "atis_flight"}
+{"text": " show me the cheapest fare from dallas to baltimore", "label": "atis_airfare"}
+{"text": " show me the flights from san diego to newark by way of houston", "label": "atis_flight"}
+{"text": " show me the earliest flight from boston to denver", "label": "atis_flight"}
+{"text": " please list the flight times from boston to pittsburgh", "label": "atis_flight_time"}
+{"text": " what is the least expensive flight from atlanta to denver leaving on october twelfth", "label": "atis_flight"}
+{"text": " list all the flights that fly into general mitchell international", "label": "atis_flight"}
+{"text": " what are the latest flights that i can take from baltimore to boston", "label": "atis_flight"}
+{"text": " what is the fare from boston to oakland on united airlines", "label": "atis_airfare"}
+{"text": " show me flights from boston to san francisco", "label": "atis_flight"}
+{"text": " from las vegas to phoenix", "label": "atis_flight"}
+{"text": " give me flights that arrive in baltimore from atlanta denver and pittsburgh", "label": "atis_flight"}
+{"text": " i need a return flight from philadelphia to boston", "label": "atis_flight"}
+{"text": " what are the flights on january first 1992 from boston to san francisco", "label": "atis_flight"}
+{"text": " what flights are there on saturdays from philadelphia to denver", "label": "atis_flight"}
+{"text": " show me the flight with the smallest seating capacity which leaves pittsburgh and arrives in baltimore on june fourteenth", "label": "atis_flight"}
+{"text": " i would like to find the least expensive flight from boston to denver", "label": "atis_flight"}
+{"text": " list all flights from burbank to denver", "label": "atis_flight"}
+{"text": " list all flights on saturday from dallas to san francisco nonstop", "label": "atis_flight"}
+{"text": " could you find me a flight from boston to san francisco that stops in denver", "label": "atis_flight"}
+{"text": " what's the most expensive way i can fly to washington", "label": "atis_flight"}
+{"text": " show me flights from pittsburgh to san francisco", "label": "atis_flight"}
+{"text": " show me ground transportation information for san francisco", "label": "atis_ground_service"}
+{"text": " what is the first flight after 12 noon from washington for denver", "label": "atis_flight"}
+{"text": " repeating leaving denver to san francisco before 10 am what type of aircraft is used", "label": "atis_aircraft"}
+{"text": " flights from baltimore to dallas", "label": "atis_flight"}
+{"text": " i'd like a flight from washington that stops in denver and goes on to san francisco", "label": "atis_flight"}
+{"text": " may i have a listing of flights from milwaukee to tacoma washington departing in the evening", "label": "atis_flight"}
+{"text": " please list the thursday morning flights from st. louis to st. paul", "label": "atis_flight"}
+{"text": " what does us stand for", "label": "atis_abbreviation"}
+{"text": " i need a flight from ontario to los angeles on a thursday", "label": "atis_flight"}
+{"text": " show me the least expensive flight from miami to cleveland on sunday after noon", "label": "atis_flight"}
+{"text": " please list ground transport in san francisco", "label": "atis_ground_service"}
+{"text": " display all flights from denver to san francisco on august seven", "label": "atis_flight"}
+{"text": " flights from las vegas to phoenix", "label": "atis_flight"}
+{"text": " give me flights from denver to baltimore", "label": "atis_flight"}
+{"text": " could you give me the schedule of flights for american and delta to dfw on august fifteenth", "label": "atis_flight_time"}
+{"text": " define airline us", "label": "atis_abbreviation"}
+{"text": " show me fares from philadelphia to san francisco on thursday morning", "label": "atis_airfare"}
+{"text": " morning flight from atlanta to philadelphia", "label": "atis_flight"}
+{"text": " can you give me a list of the flights from atlanta to boston", "label": "atis_flight"}
+{"text": " show departures from atlanta for american", "label": "atis_flight"}
+{"text": " show me times for flights from san francisco to atlanta", "label": "atis_flight_time"}
+{"text": " baltimore to philadelphia", "label": "atis_flight"}
+{"text": " i'd like a flight from detroit to st. petersburg for tuesday", "label": "atis_flight"}
+{"text": " is there a plane from boston to washington", "label": "atis_aircraft"}
+{"text": " what flights go from philadelphia to dallas via atlanta", "label": "atis_flight"}
+{"text": " show me the direct flights from san francisco to boston", "label": "atis_flight"}
+{"text": " list all flights on united from san francisco to boston with fare code qx", "label": "atis_flight"}
+{"text": " show me all flights from san francisco to pittsburgh", "label": "atis_flight"}
+{"text": " what round trip tickets are there from cleveland to miami on us air that arrive before 4 pm", "label": "atis_airfare"}
+{"text": " could you tell me the cheapest fare from atlanta to boston on thirty first of august", "label": "atis_airfare"}
+{"text": " what is the cost of a ticket going from denver to boston july twenty fifth 1991", "label": "atis_airfare"}
+{"text": " i'd like to book a flight from atlanta to denver", "label": "atis_flight"}
+{"text": " i want to fly philadelphia to san francisco on july eighth", "label": "atis_flight"}
+{"text": " how do i get from pittsburgh airport to downtown pittsburgh", "label": "atis_flight"}
+{"text": " what is the price of american airlines flight 19 from new york to los angeles", "label": "atis_airfare"}
+{"text": " show me all round trips from new york to miami leaving on tuesday", "label": "atis_flight"}
+{"text": " please show me all the flights from indianapolis to san diego tomorrow", "label": "atis_flight"}
+{"text": " show flights from philadelphia to san francisco", "label": "atis_flight"}
+{"text": " please give me a list of flights leaving boston going to pittsburgh", "label": "atis_flight"}
+{"text": " i'd like to know if you have any flights from denver to philadelphia", "label": "atis_flight"}
+{"text": " what's the last flight leaving from pittsburgh to oakland", "label": "atis_flight"}
+{"text": " please find a flight on delta from philadelphia to san francisco and give me the flight numbers", "label": "atis_flight"}
+{"text": " what are the fares for flights from la to newark leaving monday morning", "label": "atis_airfare"}
+{"text": " what airlines fly between boston and san francisco", "label": "atis_airline"}
+{"text": " give me flights from san francisco to boston on thursday afternoon", "label": "atis_flight"}
+{"text": " can you list all round trip flights from orlando to kansas city and then to minneapolis", "label": "atis_flight"}
+{"text": " what flights are available with q fares from boston to pittsburgh", "label": "atis_flight"}
+{"text": " flights from newark to boston", "label": "atis_flight"}
+{"text": " i need a flight from pittsburgh to new york leaving at 5 pm", "label": "atis_flight"}
+{"text": " fares and flights from pittsburgh to philadelphia", "label": "atis_airfare"}
+{"text": " which of the flights from pittsburgh to baltimore on july twenty fifth 1991 carries the smallest number of passengers", "label": "atis_flight"}
+{"text": " flights to baltimore", "label": "atis_flight"}
+{"text": " get me a first class flight on american to san francisco on tuesday next week", "label": "atis_flight"}
+{"text": " what is the earliest flight from washington to san francisco on friday that serves breakfast", "label": "atis_flight"}
+{"text": " what flights are available from boston to dallas", "label": "atis_flight"}
+{"text": " find me the earliest flight from boston to atlanta", "label": "atis_flight"}
+{"text": " i would like to book a flight on continental airlines from chicago to seattle on june first", "label": "atis_flight"}
+{"text": " what is bna", "label": "atis_abbreviation"}
+{"text": " show me flights available from atlanta to baltimore leaving on monday morning", "label": "atis_flight"}
+{"text": " what is the cheapest flight from boston to san francisco", "label": "atis_flight"}
+{"text": " show me the flights from san francisco to boston", "label": "atis_flight"}
+{"text": " do you have an afternoon flight leaving in the afternoon going from boston to san francisco with a stopover in dallas", "label": "atis_flight"}
+{"text": " what is the earliest flight from boston to san francisco on american airlines", "label": "atis_flight"}
+{"text": " list all american airlines flights from phoenix to milwaukee which arrive on wednesday after 4 pm", "label": "atis_flight"}
+{"text": " what flights from boston arrive in dallas fort worth before 5 pm", "label": "atis_flight"}
+{"text": " what are flights between boston and pittsburgh on august tenth", "label": "atis_flight"}
+{"text": " which airlines have flights between philadelphia and pittsburgh", "label": "atis_airline"}
+{"text": " all flights from denver to philadelphia", "label": "atis_flight"}
+{"text": " show me all flights from new york to milwaukee on northwest airlines departing at 720 am", "label": "atis_flight"}
+{"text": " show all nonstop flights from boston to atlanta", "label": "atis_flight"}
+{"text": " what is the last flight leaving san francisco going to washington on friday", "label": "atis_flight"}
+{"text": " how do i get from the airport to downtown in tacoma", "label": "atis_flight"}
+{"text": " how many flights does delta have with a class of service code f", "label": "atis_quantity"}
+{"text": " what does ea mean", "label": "atis_abbreviation"}
+{"text": " what is the first class fare on united flight 352 from denver to boston", "label": "atis_airfare"}
+{"text": " list all flights on continental leaving denver on sunday after 2134", "label": "atis_flight"}
+{"text": " i need a flight delta airlines kansas city to salt lake", "label": "atis_flight"}
+{"text": " what airlines have business class", "label": "atis_airline"}
+{"text": " i would like to see information for flights from san francisco leaving after 12 pm to pittsburgh on monday", "label": "atis_flight"}
+{"text": " give me sunday nonstop flights from memphis to las vegas", "label": "atis_flight"}
+{"text": " i would like information on flights from san francisco to pittsburgh leaving after 8 pm monday night", "label": "atis_flight"}
+{"text": " what flights are there from phoenix to milwaukee", "label": "atis_flight"}
+{"text": " show me the flights to love field", "label": "atis_flight"}
+{"text": " cheapest airfare from tacoma to orlando", "label": "atis_airfare"}
+{"text": " could you show me all weekday flights from phoenix to denver", "label": "atis_flight"}
+{"text": " i need a flight from philadelphia to san francisco next wednesday", "label": "atis_flight"}
+{"text": " list the nonstop flights on wednesday june second from miami to washington arriving in washington between 1115 am and 1245 pm", "label": "atis_flight"}
+{"text": " show me flights from denver to washington dc on wednesdays", "label": "atis_flight"}
+{"text": " show me flights from atlanta to washington", "label": "atis_flight"}
+{"text": " show me the cheapest one way tickets from atlanta to dallas", "label": "atis_airfare"}
+{"text": " what are the flights from dallas to baltimore", "label": "atis_flight"}
+{"text": " can i fly from boston to baltimore washington", "label": "atis_flight"}
+{"text": " what flights fly from denver to san francisco on monday tuesday wednesday thursday and friday", "label": "atis_flight"}
+{"text": " show me flights from pittsburgh to san francisco on sunday", "label": "atis_flight"}
+{"text": " what type of aircraft leaving after 2 pm from boston to oakland", "label": "atis_aircraft"}
+{"text": " show me flights between milwaukee and phoenix on saturday or sunday american airlines", "label": "atis_flight"}
+{"text": " show me the flights from denver to philadelphia on a saturday", "label": "atis_flight"}
+{"text": " can you tell me what flights you have from baltimore to dallas", "label": "atis_flight"}
+{"text": " what flights depart baltimore on friday and arrive in san francisco by 8 pm", "label": "atis_flight"}
+{"text": " can you list all the airlines that have flights from boston to san francisco", "label": "atis_airline"}
+{"text": " list flights from pittsburgh to atlanta on the evening of august sixth", "label": "atis_flight"}
+{"text": " what is the earliest flight you have that leaves philadelphia to dallas", "label": "atis_flight"}
+{"text": " i need to know information for flights leaving dallas on tuesday evening and returning to atlanta", "label": "atis_flight"}
+{"text": " show me all flights from san diego to phoenix on a boeing 737", "label": "atis_flight"}
+{"text": " please list the flights from dallas fort worth to boston on july twenty third", "label": "atis_flight"}
+{"text": " find the latest flight from san francisco to atlanta that serves a meal", "label": "atis_flight"}
+{"text": " what are the flights dallas to boston on monday morning", "label": "atis_flight"}
+{"text": " show me the flights from baltimore to atlanta", "label": "atis_flight"}
+{"text": " what flights do you have between pittsburgh and atlanta", "label": "atis_flight"}
+{"text": " give me the flights leaving denver august ninth coming back to boston", "label": "atis_flight"}
+{"text": " what is the cheapest flight on american airlines from cleveland to miami", "label": "atis_flight"}
+{"text": " show me the list of flights from dallas to baltimore on american and delta airlines", "label": "atis_flight"}
+{"text": " give me morning flights from atlanta to baltimore", "label": "atis_flight"}
+{"text": " saturday flights from las vegas to phoenix", "label": "atis_flight"}
+{"text": " what flights leave chicago and arrive in detroit around 6 pm next tuesday", "label": "atis_flight"}
+{"text": " how much is a round trip fare from memphis to seattle", "label": "atis_airfare"}
+{"text": " show me the shortest flight from boston to denver which arrives in denver wednesday before noon", "label": "atis_flight"}
+{"text": " please show me flights from pittsburgh to atlanta on wednesday morning serving breakfast", "label": "atis_flight"}
+{"text": " now i'd like flights from philadelphia to pittsburgh leaving between 430 and 530 pm", "label": "atis_flight"}
+{"text": " show me all the eastern airlines flights leaving pittsburgh between 12 and 4 in the afternoon", "label": "atis_flight"}
+{"text": " please list all first class flights on united from denver to baltimore", "label": "atis_flight"}
+{"text": " what kind of ground transportation is there in washington dc", "label": "atis_ground_service"}
+{"text": " which flights from memphis to tacoma also stop in los angeles", "label": "atis_flight"}
+{"text": " what do you have tomorrow morning from pittsburgh to atlanta", "label": "atis_flight"}
+{"text": " i need a flight from boston to san francisco via dallas fort worth", "label": "atis_flight"}
+{"text": " i need information on flights for tuesday leaving baltimore for dallas dallas to boston and boston to baltimore", "label": "atis_flight"}
+{"text": " are there any flights before 12 noon on june fifteenth from long beach to columbus", "label": "atis_flight"}
+{"text": " show me all the united airlines flights leaving dallas", "label": "atis_flight"}
+{"text": " how many flights go from dallas to baltimore on july nineteenth", "label": "atis_quantity"}
+{"text": " list united flights from denver to san francisco on wednesdays", "label": "atis_flight"}
+{"text": " what are the two american airlines flights that leave from dallas to san francisco in the evening", "label": "atis_flight"}
+{"text": " what is the earliest flight departing san francisco and arriving in oakland on november eighth", "label": "atis_flight"}
+{"text": " economy fares new york to miami round trip", "label": "atis_airfare"}
+{"text": " show flights from denver to oakland arriving between 12 and 1 o'clock", "label": "atis_flight"}
+{"text": " what is the earliest flight flying from pittsburgh to atlanta on july fifth", "label": "atis_flight"}
+{"text": " how many stops on continental 1765 from boston to san francisco", "label": "atis_quantity"}
+{"text": " show me the flights on twa from atlanta in the morning", "label": "atis_flight"}
+{"text": " show me the flights from dallas to baltimore", "label": "atis_flight"}
+{"text": " show me all the twa flights from indianapolis to houston that arrive around 11 am", "label": "atis_flight"}
+{"text": " show me flights from all airports to love field", "label": "atis_flight"}
+{"text": " what does flight code us mean", "label": "atis_flight"}
+{"text": " show me round trip fares from denver to philadelphia", "label": "atis_airfare"}
+{"text": " show me flights from denver to philadelphia", "label": "atis_flight"}
+{"text": " the latest flight from baltimore to oakland please and i'd like a meal with that", "label": "atis_flight"}
+{"text": " a first class flight on american to san francisco on tuesday in the next week", "label": "atis_flight"}
+{"text": " what is the yn code", "label": "atis_abbreviation"}
+{"text": " show me all the flights leaving baltimore", "label": "atis_flight"}
+{"text": " show flights from boston to denver on wednesday morning", "label": "atis_flight"}
+{"text": " hi i need to get a flight from memphis to salt lake city departing before 10 am", "label": "atis_flight"}
+{"text": " give me the flights from milwaukee to st. louis leaving sunday morning", "label": "atis_flight"}
+{"text": " list the number of flights leaving boston for dallas fort worth before 9 am in the morning", "label": "atis_quantity"}
+{"text": " i need a flight from denver to washington dc on wednesday", "label": "atis_flight"}
+{"text": " list daily flights from boston to atlanta", "label": "atis_flight"}
+{"text": " what are the most expensive first class tickets between boston and san francisco", "label": "atis_airfare"}
+{"text": " what are the morning flights in the next two days from nashville to tacoma", "label": "atis_flight"}
+{"text": " show me airline abbreviations", "label": "atis_airline"}
+{"text": " show me the flights that go from tacoma to miami", "label": "atis_flight"}
+{"text": " give me flights from baltimore to denver on united that offer first class", "label": "atis_flight"}
+{"text": " from new york to toronto on thursday morning", "label": "atis_flight"}
+{"text": " what flights from atlanta to st. louis on tuesday arriving around 230 pm", "label": "atis_flight"}
+{"text": " i want to travel from washington dc to philadelphia on tuesday morning", "label": "atis_flight"}
+{"text": " find a flight from boston to washington on monday", "label": "atis_flight"}
+{"text": " now list for me only the united flights that flight from oakland to boston", "label": "atis_flight"}
+{"text": " show me all daily flights out of boston that have coach class", "label": "atis_flight"}
+{"text": " give me the flights from baltimore to pittsburgh", "label": "atis_flight"}
+{"text": " what is the coach fare between boston and atlanta on delta", "label": "atis_airfare"}
+{"text": " show me all flights from pittsburgh to baltimore tomorrow which serve a meal", "label": "atis_flight"}
+{"text": " please list all the flights from boston to san francisco leaving before 10 am", "label": "atis_flight"}
+{"text": " what flights leaving pittsburgh arrive in denver and leave after say 6 o'clock at night", "label": "atis_flight"}
+{"text": " what is the cheapest flight from long beach to memphis", "label": "atis_flight"}
+{"text": " i want to fly from boston to denver and i don't want any stopovers and i'd like to fly only during the afternoon", "label": "atis_flight"}
+{"text": " i want the flights from toronto to san diego that stop in st. louis", "label": "atis_flight"}
+{"text": " flights from atlanta to dallas in the afternoon", "label": "atis_flight"}
+{"text": " which airlines fly between boston and pittsburgh", "label": "atis_airline"}
+{"text": " what is the transportation time from the airport to boston", "label": "atis_ground_service"}
+{"text": " how many delta flights leave from washington", "label": "atis_quantity"}
+{"text": " show flights between toronto and san francisco", "label": "atis_flight"}
+{"text": " shortest flights from nashville to st. petersburg", "label": "atis_flight"}
+{"text": " ground transportation in san jose", "label": "atis_ground_service"}
+{"text": " show first flight from pittsburgh to atlanta on wednesday", "label": "atis_flight"}
+{"text": " what is the fare from san francisco to dallas fort worth on delta flight 852", "label": "atis_airfare"}
+{"text": " i want to make a trip from washington to san francisco", "label": "atis_flight"}
+{"text": " what are the least expensive flights from denver to atlanta", "label": "atis_flight"}
+{"text": " which united airlines flight flies across this continent and leaves from boston goes to dallas and makes a stopover in philadelphia", "label": "atis_flight"}
+{"text": " show me the flights from philadelphia to boston", "label": "atis_flight"}
+{"text": " can you list all the flights between phoenix and las vegas", "label": "atis_flight"}
+{"text": " which airlines are represented in the database", "label": "atis_airline"}
+{"text": " i want a one way ticket from dallas to baltimore", "label": "atis_airfare"}
+{"text": " what flights from denver to pittsburgh arrive before 8 in the morning", "label": "atis_flight"}
+{"text": " what is the fare going from atlanta to boston one way on november seventh", "label": "atis_airfare"}
+{"text": " i'd like to know what type of plane flies from boston to dallas fort worth after 530", "label": "atis_aircraft"}
+{"text": " i would like to find a flight from kansas city to salt lake city on delta and arriving at about 8 o'clock in the evening could you please tell me the aircraft and the flight number thank you", "label": "atis_flight"}
+{"text": " the flight will originate from boston", "label": "atis_flight"}
+{"text": " list aircraft types that fly between boston and san francisco", "label": "atis_aircraft"}
+{"text": " please give me the earliest flight tomorrow from st. petersburg to milwaukee", "label": "atis_flight"}
+{"text": " show me the most expensive one way flight from detroit to westchester county", "label": "atis_flight"}
+{"text": " what are your flights from pittsburgh to baltimore", "label": "atis_flight"}
+{"text": " show me the flights from columbus to charlotte", "label": "atis_flight"}
+{"text": " give me information on flights from atlanta to washington dc on wednesday after 4 pm and thursday before 9 am", "label": "atis_flight"}
+{"text": " what are the flights from st. louis to burbank sunday evening", "label": "atis_flight"}
+{"text": " show me times for coach flights between boston and baltimore on wednesday", "label": "atis_flight_time"}
+{"text": " i'd like to go from boston to denver at 9 o'clock saturday night", "label": "atis_flight"}
+{"text": " what flights go from san francisco to washington via indianapolis", "label": "atis_flight"}
+{"text": " give me fares from atlanta to baltimore", "label": "atis_airfare"}
+{"text": " dallas to baltimore", "label": "atis_flight"}
+{"text": " i want to fly from boston at 838 am and arrive in denver at 1110 in the morning", "label": "atis_flight"}
+{"text": " what airlines fly from new york to milwaukee to los angeles", "label": "atis_airline"}
+{"text": " i would like to fly us air from orlando to cleveland in the late evening what do you have available", "label": "atis_flight"}
+{"text": " what is the first flight from atlanta to boston on thursday september fifth that leaves after 8 am", "label": "atis_flight"}
+{"text": " what are the cheapest one way flights from denver to atlanta", "label": "atis_flight"}
+{"text": " what airlines fly from boston to pittsburgh", "label": "atis_airline"}
+{"text": " show me all flights from atlanta to washington with prices", "label": "atis_flight"}
+{"text": " show me the flights from dallas to san francisco", "label": "atis_flight"}
+{"text": " what are the flights available in the morning between denver and san francisco", "label": "atis_flight"}
+{"text": " does delta airlines fly from boston to washington dc", "label": "atis_flight"}
+{"text": " show me the airfare from pittsburgh to san francisco", "label": "atis_airfare"}
+{"text": " ground transportation in westchester county", "label": "atis_ground_service"}
+{"text": " show me flights from pittsburgh to atlanta on monday afternoon", "label": "atis_flight"}
+{"text": " i wish to book a flight from pittsburgh to atlanta coach discount fare", "label": "atis_flight"}
+{"text": " i would like information on flights leaving atlanta in the afternoon arriving in dallas", "label": "atis_flight"}
+{"text": " show me flights from boston to washington leaving july fifteen", "label": "atis_flight"}
+{"text": " show me the flights from atlanta to denver on friday", "label": "atis_flight"}
+{"text": " show me flights on monday from philadelphia to boston after 7 am", "label": "atis_flight"}
+{"text": " can i go from boston to san francisco with a stopover in denver", "label": "atis_flight"}
+{"text": " i would like the earliest morning flight from atlanta to philadelphia on wednesday morning", "label": "atis_flight"}
+{"text": " what flights are there on sunday from seattle to minneapolis", "label": "atis_flight"}
+{"text": " show flights from baltimore to san francisco between 6 pm and 8 pm on friday", "label": "atis_flight"}
+{"text": " can you show me the cheapest round trip flights between denver and pittsburgh", "label": "atis_flight"}
+{"text": " what airlines fly between boston and san francisco and stop in denver", "label": "atis_airline"}
+{"text": " could you please find me the cheapest one way fare from boston to philadelphia", "label": "atis_airfare"}
+{"text": " show me the last flight from love field", "label": "atis_flight"}
+{"text": " what flights go to san francisco from boston", "label": "atis_flight"}
+{"text": " display all flights from baltimore to boston on july twenty ninth", "label": "atis_flight"}
+{"text": " please list flights between denver and boston", "label": "atis_flight"}
+{"text": " how much does dl 746 cost", "label": "atis_airfare"}
+{"text": " give me the flights from washington dc to philadelphia for december second", "label": "atis_flight"}
+{"text": " what airlines fly from boston to atlanta", "label": "atis_airline"}
+{"text": " flights from boston to pittsburgh", "label": "atis_flight"}
+{"text": " i need to fly from boston to denver and then to san francisco and back to boston", "label": "atis_flight"}
+{"text": " flights from cleveland to miami", "label": "atis_flight"}
+{"text": " show me first class flights from pittsburgh to san francisco on friday", "label": "atis_flight"}
+{"text": " how much is a round trip fare from indianapolis to seattle", "label": "atis_airfare"}
+{"text": " what does it cost to fly from boston to oakland on united airlines", "label": "atis_airfare"}
+{"text": " philadelphia to san francisco with one stop in dallas please", "label": "atis_flight"}
+{"text": " flights from newark to cleveland", "label": "atis_flight"}
+{"text": " hello i'm trying to find a flight that goes from pittsburgh to denver after 2 pm", "label": "atis_flight"}
+{"text": " please tell me the times of the flights between boston and baltimore", "label": "atis_flight_time"}
+{"text": " what are the flights from atlanta to dallas", "label": "atis_flight"}
+{"text": " what flights depart from pittsburgh and arrive in oakland california", "label": "atis_flight"}
+{"text": " please give me the flights from san francisco to washington dc", "label": "atis_flight"}
+{"text": " list flights from san francisco to pittsburgh", "label": "atis_flight"}
+{"text": " on may four atlanta to denver delta flight 257", "label": "atis_flight"}
+{"text": " i would like a flight from washington to boston leaving at 230 on august twentieth", "label": "atis_flight"}
+{"text": " what flights from kansas city to atlanta arriving before 10 am on monday", "label": "atis_flight"}
+{"text": " flights between new york and miami", "label": "atis_flight"}
+{"text": " are there delta flights leaving atlanta", "label": "atis_flight"}
+{"text": " can you tell me which flight from dallas to baltimore has the least expensive fare", "label": "atis_flight"}
+{"text": " can you list all flights from chicago to milwaukee", "label": "atis_flight"}
+{"text": " what is the cheapest way to fly from denver to oakland", "label": "atis_flight"}
+{"text": " all fares and flights from philadelphia", "label": "atis_airfare"}
+{"text": " round trip fares new york to san jose", "label": "atis_airfare"}
+{"text": " i need a united airlines flight from denver to baltimore on saturday", "label": "atis_flight"}
+{"text": " what flights are available from pittsburgh to baltimore on thursday morning", "label": "atis_flight"}
+{"text": " show all flights from pittsburgh to san francisco", "label": "atis_flight"}
+{"text": " what's the cheapest one way ticket from baltimore to atlanta", "label": "atis_airfare"}
+{"text": " flights from newark new jersey to cleveland ohio", "label": "atis_flight"}
+{"text": " flights from oakland to san francisco", "label": "atis_flight"}
+{"text": " show me the earliest flight on wednesday from baltimore to newark", "label": "atis_flight"}
+{"text": " show me all flights both direct and connecting from dallas fort worth to either san francisco or oakland that depart after 7 pm", "label": "atis_flight"}
+{"text": " i would like a list of the round trip flights between indianapolis and orlando on the twenty seventh or the twenty eighth of december", "label": "atis_flight"}
+{"text": " can i see ground transportation from long beach airport to downtown", "label": "atis_ground_service"}
+{"text": " show me the flights on delta or twa which go through atlanta", "label": "atis_flight"}
+{"text": " on tuesday what flights leave phoenix to st. paul minnesota and leave after noon", "label": "atis_flight"}
+{"text": " saturday or sunday flights between milwaukee and phoenix american airlines", "label": "atis_flight"}
+{"text": " show me flights from pittsburgh to atlanta on monday morning", "label": "atis_flight"}
+{"text": " what are the first class and coach fares for flights from chicago to kansas city arriving around 7 pm next thursday", "label": "atis_airfare"}
+{"text": " list the flights from philadelphia to san francisco which have a layover in dallas", "label": "atis_flight"}
+{"text": " oakland to philadelphia saturday", "label": "atis_flight"}
+{"text": " sunday flights from new york city to las vegas", "label": "atis_flight"}
+{"text": " one way", "label": "atis_flight"}
+{"text": " i need a flight tomorrow from columbus to minneapolis", "label": "atis_flight"}
+{"text": " what are the schedule of flights from boston to san francisco for august first", "label": "atis_flight_time"}
+{"text": " i need the earliest flight from denver to boston that serves dinner", "label": "atis_flight"}
+{"text": " show me a list of flights from san francisco to boston for august thirtieth", "label": "atis_flight"}
+{"text": " round trip flights from minneapolis to san diego coach economy fare", "label": "atis_flight"}
+{"text": " show me flights from boston to denver on wednesday", "label": "atis_flight"}
+{"text": " what does the abbreviation dl mean", "label": "atis_abbreviation"}
+{"text": " what is the fare code y and what is the fare code h", "label": "atis_abbreviation"}
+{"text": " what morning flights do you have between oakland and denver", "label": "atis_flight"}
+{"text": " i would like to fly from boston to san francisco", "label": "atis_flight"}
+{"text": " i would like to fly from boston to denver early in the morning", "label": "atis_flight"}
+{"text": " what are the fares from newark to la monday and wednesday", "label": "atis_airfare"}
+{"text": " what are the latest flights from boston to dallas on the evening of july seventh", "label": "atis_flight"}
+{"text": " all flights from boston to washington", "label": "atis_flight"}
+{"text": " i need a flight from dallas to san francisco", "label": "atis_flight"}
+{"text": " show me ground transportation information for pittsburgh", "label": "atis_ground_service"}
+{"text": " on the 8 am flight from san francisco to atlanta what type of aircraft is used", "label": "atis_aircraft"}
+{"text": " find a flight on american airlines from boston to san francisco that makes a stopover in denver", "label": "atis_flight"}
+{"text": " i want a flight from toronto to montreal that leaves early friday morning", "label": "atis_flight"}
+{"text": " shortest evening flight from tampa to cincinnati", "label": "atis_flight"}
+{"text": " what flights are there from cleveland to miami on us air that arrive in miami before 4 pm", "label": "atis_flight"}
+{"text": " may i have a listing of flights from long beach to columbus ohio on tuesday", "label": "atis_flight"}
+{"text": " i would like to make a reservation for a flight to denver from philadelphia on this coming sunday", "label": "atis_flight"}
+{"text": " please list available flights for next saturday from philadelphia to dallas", "label": "atis_flight"}
+{"text": " show me the flights available from atlanta to baltimore leaving atlanta in the morning", "label": "atis_flight"}
+{"text": " what delta flights from cincinnati to new york city arrive at new york city before 6 pm on saturday", "label": "atis_flight"}
+{"text": " show me the flights between boston and san francisco denver and san francisco boston and denver", "label": "atis_flight"}
+{"text": " what is the earliest flight in the morning from boston to pittsburgh", "label": "atis_flight"}
+{"text": " please show me the flights from las vegas to detroit on the twenty eighth", "label": "atis_flight"}
+{"text": " show me first class airlines from san francisco to pittsburgh on next tuesday first class only", "label": "atis_airline"}
+{"text": " flights from pittsburgh to newark", "label": "atis_flight"}
+{"text": " what type of aircraft does eastern fly from atlanta to denver before 6 pm", "label": "atis_aircraft"}
+{"text": " what flights are there from san francisco to philadelphia daily with economy class", "label": "atis_flight"}
+{"text": " what are the flights between dallas and pittsburgh on july eight", "label": "atis_flight"}
+{"text": " what flights does us air have from san francisco to pittsburgh on tuesday", "label": "atis_flight"}
+{"text": " what's the last flight from houston to dallas", "label": "atis_flight"}
+{"text": " please give me round trip fares from pittsburgh to philadelphia", "label": "atis_airfare"}
+{"text": " show me the flights from pittsburgh to san francisco for thursday night or friday", "label": "atis_flight"}
+{"text": " flights from cincinnati to salt lake city", "label": "atis_flight"}
+{"text": " what kinds of ground transportation is available in dallas fort worth", "label": "atis_ground_service"}
+{"text": " show me the one way flight from detroit to westchester county with the highest fare", "label": "atis_flight"}
+{"text": " i'd like a flight tomorrow evening from nashville to houston that includes dinner for tomorrow", "label": "atis_flight"}
+{"text": " information on flights from pittsburgh to philadelphia", "label": "atis_flight"}
+{"text": " what are the coach fares from charlotte to la wednesday night", "label": "atis_airfare"}
+{"text": " i also need service from dallas to boston arriving by noon", "label": "atis_flight"}
+{"text": " i want to fly from milwaukee to orlando on wednesday evening", "label": "atis_flight"}
+{"text": " show me ground transportation in dallas please", "label": "atis_ground_service"}
+{"text": " how many first class flights does delta have today", "label": "atis_quantity"}
+{"text": " list the flights arriving in atlanta from baltimore before noon on august fourth", "label": "atis_flight"}
+{"text": " is there ground transportation from atlanta airport to downtown atlanta", "label": "atis_ground_service"}
+{"text": " list the fares of us air flights from boston to philadelphia", "label": "atis_airfare"}
+{"text": " how much is a flight from washington to montreal", "label": "atis_airfare"}
+{"text": " what are all the flights between san francisco and boston", "label": "atis_flight"}
+{"text": " list the flights from pittsburgh to san francisco on thursday", "label": "atis_flight"}
+{"text": " please list all of the flights leaving atlanta heading to baltimore after 8 pm wednesday and before 9 am thursday", "label": "atis_flight"}
+{"text": " do you fly a 747 from baltimore to san francisco", "label": "atis_flight"}
+{"text": " i need a flight from boston to pittsburgh that leaves early in the morning", "label": "atis_flight"}
+{"text": " of all airlines which airline has the most arrivals in atlanta", "label": "atis_airline"}
+{"text": " show me all flights from pittsburgh which leave tomorrow and arrive in boston", "label": "atis_flight"}
+{"text": " please list the flights from dallas fort worth to dc baltimore on july twenty third", "label": "atis_flight"}
+{"text": " what flights from st. paul to kansas city on friday with supper served", "label": "atis_flight"}
+{"text": " shortest morning flights from cincinnati to tampa", "label": "atis_flight"}
+{"text": " what flights from any city land at general mitchell international", "label": "atis_flight"}
+{"text": " do you have a flight from philadelphia to san francisco with a stopover in dallas", "label": "atis_flight"}
+{"text": " what flights go from boston to pittsburgh after 6 o'clock next tuesday", "label": "atis_flight"}
+{"text": " what are my choices of flights from las vegas to new york", "label": "atis_flight"}
+{"text": " which flights go from pittsburgh to atlanta in the evening", "label": "atis_flight"}
+{"text": " is there ground transportation from the milwaukee airport to the downtown area", "label": "atis_ground_service"}
+{"text": " what's the lowest round trip fare from dallas to atlanta", "label": "atis_airfare"}
+{"text": " list the cheapest one way flight from miami florida to charlotte north carolina", "label": "atis_flight"}
+{"text": " show me all flights from denver to philadelphia which leave next saturday afternoon", "label": "atis_flight"}
+{"text": " i'd like to fly continental airlines between boston and philadelphia", "label": "atis_flight"}
+{"text": " i want to fly from boston to atlanta i would like the cheapest fare please", "label": "atis_flight"}
+{"text": " show me flights from dallas to atlanta", "label": "atis_flight"}
+{"text": " okay i'd like to fly from denver to pittsburgh", "label": "atis_flight"}
+{"text": " what does mco stand for", "label": "atis_abbreviation"}
+{"text": " i want to go from denver to atlanta round trip and make a stop at pittsburgh is this possible", "label": "atis_flight"}
+{"text": " afternoon flight from denver to san francisco", "label": "atis_flight"}
+{"text": " what flights are there from atlanta to baltimore", "label": "atis_flight"}
+{"text": " show me one way flights from milwaukee to orlando wednesday", "label": "atis_flight"}
+{"text": " which flight is a one way fare at 329 dollars from denver to pittsburgh", "label": "atis_flight"}
+{"text": " now i need a flight leaving fort worth and arriving in denver no later than 2 pm next monday", "label": "atis_flight"}
+{"text": " show morning flights from san francisco to pittsburgh", "label": "atis_flight"}
+{"text": " what are the flights from boston to atlanta", "label": "atis_flight"}
+{"text": " list all the flights that arrive at general mitchell international", "label": "atis_flight"}
+{"text": " what is the latest flight between washington and boston", "label": "atis_flight"}
+{"text": " show me all flights direct only from boston to san francisco or oakland that arrive before 10 am local time", "label": "atis_flight"}
+{"text": " flight leaving from oakland to salt lake city", "label": "atis_flight"}
+{"text": " list daily flights from oakland to boston using twa", "label": "atis_flight"}
+{"text": " find a flight on delta from philadelphia to san francisco", "label": "atis_flight"}
+{"text": " what flights leave phoenix on american airlines", "label": "atis_flight"}
+{"text": " list all the takeoffs and landings at general mitchell airport", "label": "atis_flight"}
+{"text": " what first class flights are available from denver to baltimore on july twenty fifth 1991", "label": "atis_flight"}
+{"text": " please show me ground transportation in denver", "label": "atis_ground_service"}
+{"text": " let's look at baltimore to philadelphia again", "label": "atis_flight"}
+{"text": " is the american flight 813 from boston to oakland a nonstop flight", "label": "atis_flight"}
+{"text": " what are the flights from denver to san francisco", "label": "atis_flight"}
+{"text": " looking for a flight from dc to minnesota", "label": "atis_flight"}
+{"text": " what are the times that you have planes leaving from san francisco going to pittsburgh on july seventh", "label": "atis_flight_time"}
+{"text": " is there a flight between washington dc and san francisco on us air at 8 am", "label": "atis_flight"}
+{"text": " list flights from denver to baltimore", "label": "atis_flight"}
+{"text": " from toronto to atlanta in the afternoon", "label": "atis_flight"}
+{"text": " may i have a listing of flights on monday from minneapolis to long beach california please", "label": "atis_flight"}
